@@ -27,7 +27,7 @@
 
 [submodule "laravel/Themes/SbAdmin2Bs4"]
 	path = laravel/Themes/SbAdmin2Bs4
-	url = https://github.com/laraxot/theme_sb-admin-2-bs4.git
+	url = https://github.com/laraxot/theme_sbadmin2bs4.git
 [submodule "laravel/Themes/One"]
 	path = laravel/Themes/One
 	url = https://github.com/laraxot/theme_one.git
