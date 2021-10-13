@@ -40,3 +40,6 @@
 [submodule "laravel/Themes/Starter"]
 	path = laravel/Themes/Starter
 	url = https://github.com/laraxot/theme_starter.git
+[submodule "laravel/Modules/Tenant"]
+	path = laravel/Modules/Tenant
+	url = https://github.com/laraxot/module_tenant
