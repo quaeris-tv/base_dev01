@@ -27,3 +27,11 @@
 [submodule "laravel/Modules/Tenant"]
 	path = laravel/Modules/Tenant
 	url = https://github.com/laraxot/module_tenant.git
+
+	
+[submodule "laravel/Themes/SbAdmin2Bs4"]
+	path = laravel/Themes/SbAdmin2Bs4
+	url = https://github.com/laraxot/theme_sbadmin2bs4.git
+[submodule "laravel/Themes/DirectoryBs4"]
+	path = laravel/Themes/DirectoryBs4
+	url = https://bitbucket.org/team_xot/theme_directorybs4.git
