@@ -1,5 +1,3 @@
-<?php
-
- return array (
-
+<?php return array (
+  'home' => 'Modules\Xot\Models\Home',
 );

@@ -26,5 +26,5 @@
     'widget' => 'Modules\Xot\Models\Widget',
   ),
   'primary_lang' => 'it',
-  'pub_theme' => 'bsitalia',
+  'pub_theme' => 'DirectoryBs4',
 );
