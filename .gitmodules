@@ -42,4 +42,4 @@
 	url = https://github.com/laraxot/theme_starter.git
 [submodule "laravel/Modules/Tenant"]
 	path = laravel/Modules/Tenant
-	url = https://github.com/laraxot/module_tenant
+	url = https://github.com/laraxot/module_tenant.git
