@@ -19,5 +19,7 @@
     "Rating": true,
     "Tag": true,
     "Trade": true,
-    "Media": true
+    "Media": true,
+    "Vuoto": true,
+    "Esempio": true
 }
