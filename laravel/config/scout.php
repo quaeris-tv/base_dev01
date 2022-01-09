@@ -1,7 +1,8 @@
 <?php
 
-return [
+declare(strict_types=1);
 
+return [
     /*
     |--------------------------------------------------------------------------
     | Default Search Engine
@@ -74,6 +75,21 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Identify User
+    |--------------------------------------------------------------------------
+    |
+    | This option allows you to control whether to notify the search engine
+    | of the user performing the search. This is sometimes useful if the
+    | engine supports any analytics based on this application's users.
+    |
+    | Supported engines: "algolia"
+    |
+    */
+
+    'identify' => env('SCOUT_IDENTIFY', false),
+
+    /*
+    |--------------------------------------------------------------------------
     | Algolia Configuration
     |--------------------------------------------------------------------------
     |
@@ -87,5 +103,4 @@ return [
         'id' => env('ALGOLIA_APP_ID', ''),
         'secret' => env('ALGOLIA_SECRET', ''),
     ],
-
 ];

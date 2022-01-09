@@ -1,7 +1,8 @@
 <?php
 
-return [
+declare(strict_types=1);
 
+return [
     /*
     |--------------------------------------------------------------------------
     | Editor
@@ -10,7 +11,7 @@ return [
     | Choose your preferred editor to use when clicking any edit button.
     |
     | Supported: "phpstorm", "vscode", "vscode-insiders",
-    |            "sublime", "atom"
+    |            "sublime", "atom", "nova"
     |
     */
 
@@ -121,5 +122,4 @@ return [
     |
     */
     'housekeeping_endpoint_prefix' => '_ignition',
-
 ];

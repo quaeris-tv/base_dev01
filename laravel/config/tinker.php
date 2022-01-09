@@ -1,7 +1,8 @@
 <?php
 
-return [
+declare(strict_types=1);
 
+return [
     /*
     |--------------------------------------------------------------------------
     | Console Commands
@@ -19,7 +20,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Alias Whitelist
+    | Auto Aliased Classes
     |--------------------------------------------------------------------------
     |
     | Tinker will not automatically alias classes in your vendor namespaces
@@ -29,12 +30,11 @@ return [
     */
 
     'alias' => [
-        //
     ],
 
     /*
     |--------------------------------------------------------------------------
-    | Alias Blacklist
+    | Classes That Should Not Be Aliased
     |--------------------------------------------------------------------------
     |
     | Typically, Tinker automatically aliases classes as you require them in
@@ -46,5 +46,4 @@ return [
     'dont_alias' => [
         'App\Nova',
     ],
-
 ];
