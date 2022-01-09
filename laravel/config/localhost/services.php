@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'facebook' => [
         'client_id' => '1976219272701103',
@@ -10,6 +12,11 @@ return [
         'client_id' => 'IgHlGiZndC9mQVI0u6M6IFtrI',
         'client_secret' => 'kCJKUxW8IBUICEi80m2JURRj6f82uIrDA7IuCWLfkLlgOgO8t4',
         'redirect' => 'https://www.food.local/login/twitter/callback',
+    ],
+    'instagram' => [
+        'client_id' => env('INSTAGRAM_KEY'),
+        'client_secret' => env('INSTAGRAM_SECRET'),
+        'redirect' => env('INSTAGRAM_REDIRECT_URI'),
     ],
     'google' => [
         'url_location_api' => 'https://maps.googleapis.com/maps/api/geocode/json',

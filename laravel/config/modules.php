@@ -1,10 +1,11 @@
 <?php
 
-use Modules\Xot\Services\TenantService as Tenant;
+declare(strict_types=1);
+
+use Modules\Tenant\Services\TenantService;
 use Nwidart\Modules\Activators\FileActivator;
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Module Namespace
@@ -27,7 +28,7 @@ return [
 
     'stubs' => [
         'enabled' => false,
-        'path' => base_path() . '/vendor/nwidart/laravel-modules/src/Commands/stubs',
+        'path' => base_path().'/vendor/nwidart/laravel-modules/src/Commands/stubs',
         'files' => [
             'routes/web' => 'Routes/web.php',
             'routes/api' => 'Routes/api.php',
@@ -101,33 +102,90 @@ return [
         | Set the generate key to false to not generate that folder
         */
         'generator' => [
-            'config' => ['path' => 'Config',                 'generate' => true],
-            'command' => ['path' => 'Console',                'generate' => true],
-            'migration' => ['path' => 'Database/Migrations',    'generate' => true],
-            'seeder' => ['path' => 'Database/Seeders',       'generate' => true],
-            'factory' => ['path' => 'Database/factories',     'generate' => true],
-            'model' => ['path' => 'Models',                 'generate' => true],  // corretto da Entities a Models
+            'config' => ['path' => 'Config', 'generate' => true],
+            'command' => ['path' => 'Console', 'generate' => true],
+            'migration' => ['path' => 'Database/Migrations', 'generate' => true],
+            'seeder' => ['path' => 'Database/Seeders', 'generate' => true],
+            'factory' => ['path' => 'Database/factories', 'generate' => true],
+            'model' => ['path' => 'Entities', 'generate' => true],
             'routes' => ['path' => 'Routes', 'generate' => true],
-            'controller' => ['path' => 'Http/Controllers',       'generate' => true],
-            'filter' => ['path' => 'Http/Middleware',        'generate' => true],
-            'request' => ['path' => 'Http/Requests',          'generate' => true],
-            'provider' => ['path' => 'Providers',              'generate' => true],
-            'assets' => ['path' => 'Resources/assets',       'generate' => true],
-            'lang' => ['path' => 'Resources/lang',         'generate' => true],
-            'views' => ['path' => 'Resources/views',        'generate' => true],
-            'test' => ['path' => 'Tests/Unit',             'generate' => true],
-            'test-feature' => ['path' => 'Tests/Feature',          'generate' => true],
-            'repository' => ['path' => 'Repositories',           'generate' => true],
-            'event' => ['path' => 'Events',                 'generate' => true],
-            'listener' => ['path' => 'Listeners',              'generate' => true],
-            'policies' => ['path' => 'Models/Policies',        'generate' => true], // corretto da Policies a Models/Policies
-            'rules' => ['path' => 'Rules',                  'generate' => true],
-            'jobs' => ['path' => 'Jobs',                   'generate' => true],
-            'emails' => ['path' => 'Mail',                   'generate' => true],             // corretto da Email a Mail
-            'notifications' => ['path' => 'Notifications',          'generate' => true],
-            'resource' => ['path' => 'Transformers',           'generate' => true],
+            'controller' => ['path' => 'Http/Controllers', 'generate' => true],
+            'filter' => ['path' => 'Http/Middleware', 'generate' => true],
+            'request' => ['path' => 'Http/Requests', 'generate' => true],
+            'provider' => ['path' => 'Providers', 'generate' => true],
+            'assets' => ['path' => 'Resources/assets', 'generate' => true],
+            'lang' => ['path' => 'Resources/lang', 'generate' => true],
+            'views' => ['path' => 'Resources/views', 'generate' => true],
+            'test' => ['path' => 'Tests/Unit', 'generate' => true],
+            'test-feature' => ['path' => 'Tests/Feature', 'generate' => true],
+            'repository' => ['path' => 'Repositories', 'generate' => false],
+            'event' => ['path' => 'Events', 'generate' => false],
+            'listener' => ['path' => 'Listeners', 'generate' => false],
+            'policies' => ['path' => 'Policies', 'generate' => false],
+            'rules' => ['path' => 'Rules', 'generate' => false],
+            'jobs' => ['path' => 'Jobs', 'generate' => false],
+            'emails' => ['path' => 'Emails', 'generate' => false],
+            'notifications' => ['path' => 'Notifications', 'generate' => false],
+            'resource' => ['path' => 'Transformers', 'generate' => false],
+            'component-view' => ['path' => 'Resources/views/components', 'generate' => false],
+            'component-class' => ['path' => 'View/Component', 'generate' => false],
         ],
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Package commands
+    |--------------------------------------------------------------------------
+    |
+    | Here you can define which commands will be visible and used in your
+    | application. If for example you don't use some of the commands provided
+    | you can simply comment them out.
+    |
+    */
+    'commands' => [
+        CommandMakeCommand::class,
+        ControllerMakeCommand::class,
+        DisableCommand::class,
+        DumpCommand::class,
+        EnableCommand::class,
+        EventMakeCommand::class,
+        JobMakeCommand::class,
+        ListenerMakeCommand::class,
+        MailMakeCommand::class,
+        MiddlewareMakeCommand::class,
+        NotificationMakeCommand::class,
+        ProviderMakeCommand::class,
+        RouteProviderMakeCommand::class,
+        InstallCommand::class,
+        ListCommand::class,
+        ModuleDeleteCommand::class,
+        ModuleMakeCommand::class,
+        FactoryMakeCommand::class,
+        PolicyMakeCommand::class,
+        RequestMakeCommand::class,
+        RuleMakeCommand::class,
+        MigrateCommand::class,
+        MigrateRefreshCommand::class,
+        MigrateResetCommand::class,
+        MigrateRollbackCommand::class,
+        MigrateStatusCommand::class,
+        MigrationMakeCommand::class,
+        ModelMakeCommand::class,
+        PublishCommand::class,
+        PublishConfigurationCommand::class,
+        PublishMigrationCommand::class,
+        PublishTranslationCommand::class,
+        SeedCommand::class,
+        SeedMakeCommand::class,
+        SetupCommand::class,
+        UnUseCommand::class,
+        UpdateCommand::class,
+        UseCommand::class,
+        ResourceMakeCommand::class,
+        TestMakeCommand::class,
+        LaravelModulesV6Migrator::class,
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Scan Path
@@ -160,6 +218,9 @@ return [
             'email' => 'n.widart@gmail.com',
         ],
     ],
+
+    'composer-output' => false,
+
     /*
     |--------------------------------------------------------------------------
     | Caching
@@ -182,7 +243,7 @@ return [
     */
     'register' => [
         'translations' => true,
-        /**
+        /*
          * load files on boot or register method
          *
          * Note: boot not compatible with asgardcms
@@ -204,7 +265,8 @@ return [
     'activators' => [
         'file' => [
             'class' => FileActivator::class,
-            'statuses-file' => Tenant::filePath('modules_statuses.json'),
+            //'statuses-file' => base_path('modules_statuses.json'),
+            'statuses-file' => TenantService::filePath('modules_statuses.json'),
             'cache-key' => 'activator.installed',
             'cache-lifetime' => 604800,
         ],
