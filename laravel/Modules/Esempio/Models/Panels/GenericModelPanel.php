@@ -96,33 +96,31 @@ class GenericModelPanel extends XotBasePanel {
      */
     public function fields(): array {
         return array (
+            (object) array(
+                'type' => 'Id',
+                'name' => 'id',
+                'comment' => NULL,
+            ),
 
-  (object) array(
-     'type' => 'Id',
-     'name' => 'id',
-     'comment' => NULL,
-  ),
+            (object) array(
+                'type' => 'Text',
+                'name' => 'txt',
+                'comment' => NULL,
+            ),
 
-  (object) array(
-     'type' => 'Text',
-     'name' => 'txt',
-     'comment' => NULL,
-  ),
-/*
-(object) array(
-    'type' => 'Integer',
-    'name' => 'user_id',
-    'rules' => 'required',
-    'comment' => NULL,
-),
-*/
+            (object) array(
+                'type' => 'Integer',
+                'name' => 'user_id',
+                'rules' => 'required',
+                'comment' => NULL,
+            ),
 
-  (object) array(
-     'type' => 'String',
-     'name' => 'image_src',
-     'comment' => NULL,
-  ),
-);
+            (object) array(
+                'type' => 'String',
+                'name' => 'image_src',
+                'comment' => NULL,
+            ),
+        );
     }
 
     /**
