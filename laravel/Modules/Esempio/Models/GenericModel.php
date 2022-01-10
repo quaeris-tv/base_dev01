@@ -12,4 +12,5 @@ class GenericModel extends BaseModel{
      * @var string[]
      */
     protected $fillable = ['id', 'txt', 'user_id', 'image_src'];
+
 }
