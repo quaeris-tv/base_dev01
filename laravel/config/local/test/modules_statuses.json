@@ -19,5 +19,7 @@
     "Amazon": true,
     "Tenant": true,
     "Trade": true,
-    "Media": true
+    "Media": true,
+    "Esempio": true,
+    "Vuoto": true
 }

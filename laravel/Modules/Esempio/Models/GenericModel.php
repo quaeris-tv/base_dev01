@@ -7,7 +7,7 @@ namespace Modules\Esempio\Models;
 /**
  * Modules\Esempio\Models\GenericModel.
  */
-class GenericModel extends BaseModelLang {
+class GenericModel extends BaseModel{
     /**
      * @var string[]
      */

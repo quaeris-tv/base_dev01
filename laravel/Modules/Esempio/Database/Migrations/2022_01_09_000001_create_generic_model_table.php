@@ -9,9 +9,9 @@ use Modules\Geo\Models\Place as MyModel;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 /**
- * Class CreateGenericTable.
+ * Class CreateGenericModelTable.
  */
-class CreateGenericTable extends XotBaseMigration {
+class CreateGenericModelTable extends XotBaseMigration {
     /**
      * db up.
      *
