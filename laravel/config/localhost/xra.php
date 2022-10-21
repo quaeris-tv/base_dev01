@@ -1,7 +1,9 @@
-<?php return array (
+<?php
+
+ return array (
   'adm_theme' => 'sb-admin-2-bs4',
   'enable_ads' => '1',
-  'model' => 
+  'model' =>
   array (
     'amenity' => 'Modules\Blog\Models\Amenity',
     'article' => 'Modules\Blog\Models\Article',
@@ -12,10 +14,10 @@
     'home' => 'Modules\Xot\Models\Home',
     'location' => 'Modules\Food\Models\Location',
     'opening_hour' => 'Modules\Food\Models\OpeningHour',
-    'page' => 'Modules\Blog\Models\Page',
+    'page' => 'Modules\Lang\Models\Post',
     'photo' => 'Modules\Blog\Models\Photo',
     'post' => 'Modules\Blog\Models\Post',
-    'profile' => 'Modules\Blog\Models\Profile',
+    'profile' => 'Modules\LU\Models\Profile',
     'rating' => 'Modules\Blog\Models\Rating',
     'restaurant' => 'Modules\Food\Models\Restaurant',
     'restaurant_provider' => 'Modules\Food\Models\RestaurantProvider',
@@ -26,5 +28,6 @@
     'widget' => 'Modules\Xot\Models\Widget',
   ),
   'primary_lang' => 'it',
-  'pub_theme' => 'DirectoryBs4',
+  'pub_theme' => 'DirectoryBs5',
+  'main_module'=>'Quaeris',
 );

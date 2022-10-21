@@ -20,6 +20,12 @@
     "Tag": true,
     "Trade": true,
     "Media": true,
-    "Vuoto": true,
-    "Esempio": true
+    "Quaeris": true,
+    "Smarty": true,
+    "Lang": true,
+    "Cms": true,
+    "Notify": true,
+    "Limesurvey": true,
+    "Job": true,
+    "Ticket": true
 }
