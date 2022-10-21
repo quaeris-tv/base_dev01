@@ -60,6 +60,9 @@
 [submodule "laravel/Modules/Ticket"]
 	path = laravel/Modules/Ticket
 	url = https://github.com/laraxot/module_ticket.git
+[submodule "laravel/Modules/Rating"]
+	path = laravel/Modules/Rating
+	url = https://github.com/laraxot/module_rating.git
 
 
 #Themes	
