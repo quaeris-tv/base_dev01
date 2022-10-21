@@ -1,11 +1,14 @@
+#noconsole
 [submodule "public_html/noconsole"]
 	path = public_html/noconsole
 	url = https://github.com/laraxot/noconsole.git
 
+#bashscripts
 [submodule "bashscripts"]
 	path = bashscripts
 	url = https://github.com/laraxot/bashscripts.git
 
+#Modules
 [submodule "laravel/Modules/Blog"]
 	path = laravel/Modules/Blog
 	url = https://github.com/laraxot/module_blog.git
@@ -21,23 +24,54 @@
 [submodule "laravel/Modules/Geo"]
 	path = laravel/Modules/Geo
 	url = https://github.com/laraxot/module_geo.git
-[submodule "laravel/Modules/FormX"]
-	path = laravel/Modules/FormX
-	url = https://github.com/laraxot/module_formx.git
 [submodule "laravel/Modules/Tenant"]
 	path = laravel/Modules/Tenant
 	url = https://github.com/laraxot/module_tenant.git
-
-	
-[submodule "laravel/Themes/SbAdmin2Bs4"]
-	path = laravel/Themes/SbAdmin2Bs4
-	url = https://github.com/laraxot/theme_sbadmin2bs4.git
-[submodule "laravel/Themes/DirectoryBs4"]
-	path = laravel/Themes/DirectoryBs4
-	url = https://bitbucket.org/team_xot/theme_directorybs4.git
-[submodule "laravel/Modules/Rating"]
-	path = laravel/Modules/Rating
-	url = https://github.com/laraxot/module_rating.git
+[submodule "laravel/Modules/Quaeris"]
+	path = laravel/Modules/Quaeris
+	url = https://bitbucket.org/team-quaeris/module_quaeris.git
+[submodule "laravel/Modules/Chart"]
+	path = laravel/Modules/Chart
+	url = https://github.com/laraxot/module_chart.git
+[submodule "laravel/Modules/Smarty"]
+	path = laravel/Modules/Smarty
+	url = https://github.com/laraxot/module_smarty.git
+[submodule "laravel/Modules/Lang"]
+	path = laravel/Modules/Lang
+	url = https://github.com/laraxot/module_lang.git
+[submodule "laravel/Modules/Cms"]
+	path = laravel/Modules/Cms
+	url = https://github.com/laraxot/module_cms.git
+[submodule "laravel/Modules/Notify"]
+	path = laravel/Modules/Notify
+	url = https://github.com/laraxot/module_notify.git
+[submodule "laravel/Modules/Limesurvey"]
+	path = laravel/Modules/Limesurvey
+	url = https://github.com/laraxot/module_limesurvey.git
+[submodule "laravel/Modules/Job"]
+	path = laravel/Modules/Job
+	url = https://github.com/laraxot/module_job.git
+[submodule "laravel/Modules/Seo"]
+	path = laravel/Modules/Seo
+	url = https://github.com/laraxot/module_seo.git
 [submodule "laravel/Modules/Tag"]
 	path = laravel/Modules/Tag
 	url = https://github.com/laraxot/module_tag.git
+[submodule "laravel/Modules/Ticket"]
+	path = laravel/Modules/Ticket
+	url = https://github.com/laraxot/module_ticket.git
+
+
+#Themes	
+[submodule "laravel/Themes/AdminLTE"]
+	path = laravel/Themes/AdminLTE
+	url = https://github.com/laraxot/theme_adminlte.git
+[submodule "laravel/Themes/DirectoryBs5"]
+	path = laravel/Themes/DirectoryBs5
+	url = https://github.com/laraxot/theme_directorybs5.git
+[submodule "laravel/Themes/SbAdmin"]
+	path = laravel/Themes/SbAdmin
+	url = https://github.com/laraxot/theme_sbadmin.git
+[submodule "laravel/Themes/MaterialBlog"]
+	path = laravel/Themes/MaterialBlog
+	url = https://github.com/laraxot/theme_materialblog.git
