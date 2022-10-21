@@ -3,6 +3,7 @@
     "Theme": true,
     "Settings": true,
     "LU": true,
+    "Cms": true,
     "Geo": true,
     "Forum": true,
     "FormX": true,
