@@ -5,5 +5,14 @@
     "FormX": true,
     "Geo": true,
     "Theme": true,
-    "Tenant": true
+    "Tenant": true,
+    "Chart": true,
+    "Cms": true,
+    "Job": true,
+    "Limesurvey": true,
+    "Notify": true,
+    "Quaeris": true,
+    "Smarty": true,
+    "Tag": true,
+    "Ticket": true
 }
