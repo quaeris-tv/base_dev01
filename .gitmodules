@@ -78,3 +78,6 @@
 [submodule "laravel/Themes/MaterialBlog"]
 	path = laravel/Themes/MaterialBlog
 	url = https://github.com/laraxot/theme_materialblog.git
+[submodule "laravel/Themes/BsItalia"]
+	path = laravel/Themes/BsItalia
+	url = https://github.com/laraxot/theme_bsitalia.git
