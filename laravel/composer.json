@@ -42,7 +42,8 @@
         "spatie/laravel-tags": "^4.3",
         "staudenmeir/eloquent-has-many-deep": "^1.16",
         "symfony/dom-crawler": "^6.0",
-        "unisharp/laravel-filemanager": "^2.5"
+        "unisharp/laravel-filemanager": "^2.5",
+        "wire-elements/pro": "^2.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.7",
@@ -103,5 +104,11 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wire-elements-pro.composer.sh"
+        }
+    ]
 }
