@@ -34,3 +34,5 @@ Homestead.json
 .tmp
 error_log
 package-lock.json
+.Trash-1000
+*.stackdump
