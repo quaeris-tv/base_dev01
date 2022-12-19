@@ -29,7 +29,7 @@
 	url = https://github.com/laraxot/module_tenant.git
 [submodule "laravel/Modules/Quaeris"]
 	path = laravel/Modules/Quaeris
-	url = https://bitbucket.org/team-quaeris/module_quaeris.git
+	url = https://github.com/quaeris-tv/module_quaeris.git
 [submodule "laravel/Modules/Chart"]
 	path = laravel/Modules/Chart
 	url = https://github.com/laraxot/module_chart.git
@@ -81,3 +81,12 @@
 [submodule "laravel/Themes/BsItalia"]
 	path = laravel/Themes/BsItalia
 	url = https://github.com/laraxot/theme_bsitalia.git
+[submodule "laravel/Themes/KlekooPub"]
+	path = laravel/Themes/KlekooPub
+	url = https://github.com/quaeris-tv/theme_klekoopub.git
+[submodule "laravel/Themes/KlekooAdm"]
+	path = laravel/Themes/KlekooAdm
+	url = https://github.com/quaeris-tv/theme_klekooadm.git
+[submodule "laravel/Themes/One"]
+	path = laravel/Themes/One
+	url = https://github.com/laraxot/theme_one.git
