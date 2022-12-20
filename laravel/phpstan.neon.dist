@@ -1,0 +1,43 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+
+    level: 1
+
+    paths:
+        - ./
+
+    excludePaths:
+        - ./build/*
+        - ./*/build/*
+        - ./vendor/*
+        - ./*/vendor/*
+        - ./docs/*
+        - ./*/docs/*
+        - ./Tests/*
+        - ./*/Tests/*
+        - ./_ide_helper.php
+        - ./*/_ide_helper.php
+
+    bootstrapFiles:
+        - ./Modules/Xot/Services/vendor/autoload.php
+
+    scanFiles:
+        - ./Modules/Xot/Helpers/Helper.php
+
+    tmpDir: build/phpstan
+    reportUnmatchedIgnoredErrors: false
+    checkOctaneCompatibility: false
+    checkModelProperties: false
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
+
+
+#    ignoreErrors:
+#        - '#PHPDoc tag @var#'
+#
+#    excludePaths:
+#        - ./*/*/FileToBeExcluded.php
+#
+#    checkMissingIterableValueType: false
