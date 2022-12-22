@@ -17,6 +17,7 @@ parameters:
         - ./*/docs/*
         - ./Tests/*
         - ./*/Tests/*
+        - ./*/lang/*
         - ./_ide_helper.php
         - ./*/_ide_helper.php
 
