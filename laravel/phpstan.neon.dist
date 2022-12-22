@@ -25,6 +25,7 @@ parameters:
 
     scanFiles:
         - ./Modules/Xot/Helpers/Helper.php
+        - ./vendor/amenadiel/jpgraph/src/config.inc.php
 
     tmpDir: build/phpstan
     reportUnmatchedIgnoredErrors: false
