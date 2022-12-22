@@ -28,7 +28,6 @@
         "psr/simple-cache": "^1",
         "spatie/laravel-cookie-consent": "^3.2",
         "spatie/laravel-dashboard": "*",
-        "spatie/laravel-dashboard-time-weather-tile": "*",
         "spatie/laravel-data": "*",
         "spatie/laravel-database-mail-templates": "*",
         "spatie/laravel-medialibrary": "^10.6",
