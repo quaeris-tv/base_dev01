@@ -23,6 +23,7 @@ parameters:
         - ./Modules/Ticket/*
         - ./Modules/Theme/*
         - ./Modules/Quaeris/*
+        - ./Modules/Notify/*
 
     bootstrapFiles:
         - ./Modules/Xot/Services/vendor/autoload.php
