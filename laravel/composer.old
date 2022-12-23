@@ -43,6 +43,7 @@
             "Modules/Xot/Helpers/Helper.php"
         ]
     },
+    
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
