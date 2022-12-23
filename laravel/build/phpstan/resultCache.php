@@ -1,7 +1,7 @@
 <?php declare(strict_types = 1);
 
 return [
-	'lastFullAnalysisTime' => 1671793005,
+	'lastFullAnalysisTime' => 1671793314,
 	'meta' => array (
   'cacheVersion' => 'v10-collectedData',
   'phpstanVersion' => '1.9.4',
@@ -9,7 +9,7 @@ return [
   'projectConfig' => '{parameters: {universalObjectCratesClasses: [Illuminate\\Http\\Request, Illuminate\\Support\\Optional], earlyTerminatingFunctionCalls: [abort, dd], excludePaths: {analyseAndScan: [*.blade.php, /var/www/html/_bases/base_dev01/laravel/build/*, /var/www/html/_bases/base_dev01/laravel/*/build/*, /var/www/html/_bases/base_dev01/laravel/vendor/*, /var/www/html/_bases/base_dev01/laravel/*/vendor/*, /var/www/html/_bases/base_dev01/laravel/docs/*, /var/www/html/_bases/base_dev01/laravel/*/docs/*, /var/www/html/_bases/base_dev01/laravel/Tests/*, /var/www/html/_bases/base_dev01/laravel/*/Tests/*, /var/www/html/_bases/base_dev01/laravel/*/lang/*, /var/www/html/_bases/base_dev01/laravel/_ide_helper.php, /var/www/html/_bases/base_dev01/laravel/*/_ide_helper.php], analyse: []}, mixinExcludeClasses: [Eloquent], bootstrapFiles: [/var/www/html/_bases/base_dev01/laravel/vendor/nunomaduro/larastan/bootstrap.php, /var/www/html/_bases/base_dev01/laravel/Modules/Xot/Services/vendor/autoload.php], checkOctaneCompatibility: false, noModelMake: true, noUnnecessaryCollectionCall: true, noUnnecessaryCollectionCallOnly: [], noUnnecessaryCollectionCallExcept: [], squashedMigrationsPath: [], databaseMigrationsPath: [], checkModelProperties: false, checkPhpDocMissingReturn: false, level: 5, paths: [/var/www/html/_bases/base_dev01/laravel/Modules], scanFiles: [/var/www/html/_bases/base_dev01/laravel/Modules/Xot/Helpers/Helper.php, /var/www/html/_bases/base_dev01/laravel/vendor/amenadiel/jpgraph/src/config.inc.php], tmpDir: /var/www/html/_bases/base_dev01/laravel/build/phpstan, reportUnmatchedIgnoredErrors: false, checkMissingIterableValueType: false, checkGenericClassInNonGenericObjectType: false}, conditionalTags: {NunoMaduro\\Larastan\\Rules\\NoModelMakeRule: {phpstan.rules.rule: %noModelMake%}, NunoMaduro\\Larastan\\Rules\\NoUnnecessaryCollectionCallRule: {phpstan.rules.rule: %noUnnecessaryCollectionCall%}, NunoMaduro\\Larastan\\Rules\\OctaneCompatibilityRule: {phpstan.rules.rule: %checkOctaneCompatibility%}, NunoMaduro\\Larastan\\Rules\\ModelProperties\\ModelPropertyRule: {phpstan.rules.rule: %checkModelProperties%}, NunoMaduro\\Larastan\\Rules\\ModelProperties\\ModelPropertyStaticCallRule: {phpstan.rules.rule: %checkModelProperties%}}, services: [{class: NunoMaduro\\Larastan\\Methods\\RelationForwardsCallsExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Methods\\ModelForwardsCallsExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Methods\\EloquentBuilderForwardsCallsExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Methods\\HigherOrderTapProxyExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Methods\\HigherOrderCollectionProxyExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Methods\\StorageMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Methods\\Extension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Methods\\ModelFactoryMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Methods\\RedirectResponseMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Methods\\MacroMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Methods\\ViewWithMethodsClassReflectionExtension, tags: [phpstan.broker.methodsClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Properties\\ModelAccessorExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Properties\\ModelPropertyExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Properties\\HigherOrderCollectionProxyPropertyExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\Types\\RelationDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\Types\\ModelRelationsDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\HigherOrderTapProxyExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Contracts\\Container\\Container}}, {class: NunoMaduro\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Container\\Container}}, {class: NunoMaduro\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Foundation\\Application}}, {class: NunoMaduro\\Larastan\\ReturnTypes\\ContainerArrayAccessDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension], arguments: {className: Illuminate\\Contracts\\Foundation\\Application}}, {class: NunoMaduro\\Larastan\\Properties\\ModelRelationsExtension, tags: [phpstan.broker.propertiesClassReflectionExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\ModelFactoryDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\ModelDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\AppMakeDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\AuthExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\GuardDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\AuthManagerExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\DateExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\GuardExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\RequestFileExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\RequestRouteExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\RequestUserExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\EloquentBuilderExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\RelationFindExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\RelationCollectionExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\ModelFindExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\BuilderModelFindExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\TestCaseExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\Support\\CollectionHelper}, {class: NunoMaduro\\Larastan\\ReturnTypes\\Helpers\\AuthExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\Helpers\\CollectExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\Helpers\\NowAndTodayExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\Helpers\\ResponseExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\Helpers\\ViewExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\Helpers\\ValidatorExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\CollectionFilterDynamicReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\CollectionGenericStaticMethodDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\NewModelQueryDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\FactoryDynamicMethodReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\CollectionGenericStaticMethodDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: abort, negate: false}}, {class: NunoMaduro\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: abort, negate: true}}, {class: NunoMaduro\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: throw, negate: false}}, {class: NunoMaduro\\Larastan\\Types\\AbortIfFunctionTypeSpecifyingExtension, tags: [phpstan.typeSpecifier.functionTypeSpecifyingExtension], arguments: {methodName: throw, negate: true}}, {class: NunoMaduro\\Larastan\\ReturnTypes\\Helpers\\AppExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\Helpers\\ValueExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\Helpers\\TapExtension, tags: [phpstan.broker.dynamicFunctionReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\StorageDynamicStaticMethodReturnTypeExtension, tags: [phpstan.broker.dynamicStaticMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\Types\\GenericEloquentCollectionTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension]}, {class: NunoMaduro\\Larastan\\Types\\ViewStringTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension]}, {class: NunoMaduro\\Larastan\\Rules\\OctaneCompatibilityRule}, {class: NunoMaduro\\Larastan\\Rules\\NoModelMakeRule}, {class: NunoMaduro\\Larastan\\Rules\\NoUnnecessaryCollectionCallRule, arguments: {onlyMethods: %noUnnecessaryCollectionCallOnly%, excludeMethods: %noUnnecessaryCollectionCallExcept%}}, {class: NunoMaduro\\Larastan\\Rules\\ModelProperties\\ModelPropertyRule}, {class: NunoMaduro\\Larastan\\Rules\\ModelProperties\\ModelPropertyStaticCallRule}, {class: NunoMaduro\\Larastan\\Types\\GenericEloquentBuilderTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension]}, {class: NunoMaduro\\Larastan\\ReturnTypes\\AppEnvironmentReturnTypeExtension, tags: [phpstan.broker.dynamicMethodReturnTypeExtension]}, {class: NunoMaduro\\Larastan\\Types\\ModelProperty\\ModelPropertyTypeNodeResolverExtension, tags: [phpstan.phpDoc.typeNodeResolverExtension], arguments: {active: %checkModelProperties%}}, {class: NunoMaduro\\Larastan\\Types\\RelationParserHelper, arguments: {parser: @currentPhpVersionSimpleDirectParser}}, {class: NunoMaduro\\Larastan\\Properties\\MigrationHelper, arguments: {databaseMigrationPath: %databaseMigrationsPath%, parser: @currentPhpVersionSimpleDirectParser}}, {class: NunoMaduro\\Larastan\\Properties\\SquashedMigrationHelper, arguments: {schemaPaths: %squashedMigrationsPath%}}, {class: NunoMaduro\\Larastan\\Rules\\ModelProperties\\ModelPropertiesRuleHelper}, {class: NunoMaduro\\Larastan\\Rules\\ModelRuleHelper}, {class: NunoMaduro\\Larastan\\Methods\\BuilderHelper, arguments: {checkProperties: %checkModelProperties%}}, {class: NunoMaduro\\Larastan\\Rules\\RelationExistenceRule, tags: [phpstan.rule]}, {class: NunoMaduro\\Larastan\\Rules\\CheckDispatchArgumentTypesCompatibleWithClassConstructorRule, arguments: {dispatchableClass: Illuminate\\Foundation\\Bus\\Dispatchable}, tags: [phpstan.rules.rule]}, {class: NunoMaduro\\Larastan\\Rules\\CheckDispatchArgumentTypesCompatibleWithClassConstructorRule, arguments: {dispatchableClass: Illuminate\\Foundation\\Events\\Dispatchable}, tags: [phpstan.rules.rule]}, NunoMaduro\\Larastan\\Properties\\Schema\\PhpMyAdminDataTypeToPhpTypeConverter, {class: NunoMaduro\\Larastan\\LarastanStubFilesExtension, tags: [phpstan.stubFilesExtension]}], rules: [NunoMaduro\\Larastan\\Rules\\RelationExistenceRule, NunoMaduro\\Larastan\\Rules\\UselessConstructs\\NoUselessWithFunctionCallsRule, NunoMaduro\\Larastan\\Rules\\UselessConstructs\\NoUselessValueFunctionCallsRule, NunoMaduro\\Larastan\\Rules\\DeferrableServiceProviderMissingProvidesRule]}',
   'analysedPaths' => 
   array (
-    0 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo',
+    0 => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang',
   ),
   'scannedFiles' => 
   array (
@@ -2931,19 +2931,38 @@ return [
 	'projectExtensionFiles' => array (
 ),
 	'errorsCallback' => static function (): array { return array (
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/GetLatitudeLongitudeAction.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Casts/LangField.php' => 
   array (
     0 => 
     PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Call to an undefined method object::getAttributeValue().',
-       'file' => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/GetLatitudeLongitudeAction.php',
-       'line' => 55,
+       'message' => 'Parameter $value of method Modules\\Lang\\Casts\\LangField::set() has invalid type App\\Models\\Address.',
+       'file' => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Casts/LangField.php',
+       'line' => 37,
        'canBeIgnored' => true,
-       'filePath' => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/GetLatitudeLongitudeAction.php',
+       'filePath' => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Casts/LangField.php',
        'traitFilePath' => NULL,
        'tip' => NULL,
-       'nodeLine' => 55,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
+       'nodeLine' => 37,
+       'nodeType' => 'PHPStan\\Node\\InClassMethodNode',
+       'identifier' => NULL,
+       'metadata' => 
+      array (
+      ),
+    )),
+  ),
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseModelLang.php' => 
+  array (
+    0 => 
+    PHPStan\Analyser\Error::__set_state(array(
+       'message' => 'Class Modules\\Xot\\Models\\Image not found.',
+       'file' => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Traits/LinkedTrait.php (in context of class Modules\\Lang\\Models\\BaseModelLang)',
+       'line' => 100,
+       'canBeIgnored' => true,
+       'filePath' => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseModelLang.php',
+       'traitFilePath' => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Traits/LinkedTrait.php',
+       'tip' => 'Learn more at https://phpstan.org/user-guide/discovering-symbols',
+       'nodeLine' => 100,
+       'nodeType' => 'PhpParser\\Node\\Expr\\ClassConstFetch',
        'identifier' => NULL,
        'metadata' => 
       array (
@@ -2951,15 +2970,15 @@ return [
     )),
     1 => 
     PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Call to an undefined method object::fill().',
-       'file' => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/GetLatitudeLongitudeAction.php',
-       'line' => 56,
+       'message' => 'PHPDoc tag @return with type mixed is not subtype of native type void.',
+       'file' => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Traits/LinkedTrait.php (in context of class Modules\\Lang\\Models\\BaseModelLang)',
+       'line' => 295,
        'canBeIgnored' => true,
-       'filePath' => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/GetLatitudeLongitudeAction.php',
-       'traitFilePath' => NULL,
+       'filePath' => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseModelLang.php',
+       'traitFilePath' => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Traits/LinkedTrait.php',
        'tip' => NULL,
-       'nodeLine' => 56,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
+       'nodeLine' => 295,
+       'nodeType' => 'PhpParser\\Node\\Stmt\\ClassMethod',
        'identifier' => NULL,
        'metadata' => 
       array (
@@ -2967,15 +2986,15 @@ return [
     )),
     2 => 
     PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Call to an undefined method object::save().',
-       'file' => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/GetLatitudeLongitudeAction.php',
-       'line' => 57,
+       'message' => 'Strict comparison using === between null and Modules\\Lang\\Models\\Post will always evaluate to false.',
+       'file' => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Traits/LinkedTrait.php (in context of class Modules\\Lang\\Models\\BaseModelLang)',
+       'line' => 365,
        'canBeIgnored' => true,
-       'filePath' => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/GetLatitudeLongitudeAction.php',
-       'traitFilePath' => NULL,
+       'filePath' => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseModelLang.php',
+       'traitFilePath' => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Traits/LinkedTrait.php',
        'tip' => NULL,
-       'nodeLine' => 57,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
+       'nodeLine' => 365,
+       'nodeType' => 'PhpParser\\Node\\Expr\\BinaryOp\\Identical',
        'identifier' => NULL,
        'metadata' => 
       array (
@@ -2986,305 +3005,145 @@ return [
 	'collectedDataCallback' => static function (): array { return array (
 ); },
 	'dependencies' => array (
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Config/config.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Casts/LangField.php' => 
   array (
-    'fileHash' => 'ce4c4ba2ee553395f8aa57c54dcd71232e6ae76c',
+    'fileHash' => 'b39b405abdf2dc7201bbe6bbdca9b8c465d48be4',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Database/Factories/PlaceFactory.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Config/config.php' => 
   array (
-    'fileHash' => '071b67c5191f740ab51bda3a722fe97fc30d60b0',
-    'dependentFiles' => 
-    array (
-      0 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Database/Migrations/2021_01_01_000011_create_places_table.php',
-      1 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/FillplacesAction.php',
-      2 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Place.php',
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Database/Migrations/2021_01_01_000011_create_places_table.php' => 
-  array (
-    'fileHash' => '032eb4e58fe40feaf4bfe45f354798d77d326bf4',
+    'fileHash' => 'e66e1d9294193f812e81a80070a95be310868223',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Database/Seeders/GeoDatabaseSeeder.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Database/Migrations/2018_01_01_080016_create_lang_posts_table.php' => 
   array (
-    'fileHash' => '2f7ea30d6557473a67d35b0ce638ef5d867aee7f',
+    'fileHash' => 'f132191c18dad0f4be0b3b916e300ceb48c7e68c',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Http/Livewire/FormSearchAddressCategories.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Database/Seeders/LangDatabaseSeeder.php' => 
   array (
-    'fileHash' => '25e64ccb4806c42ce8c580cd60341ea2f1943b4d',
+    'fileHash' => 'a5f13d9accf6e1cfc6aec3ec38ed929f786878e1',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Http/Livewire/Test.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseModel.php' => 
   array (
-    'fileHash' => 'b0ef999a2f42feca9b74152b96cbb119cdd69e7c',
+    'fileHash' => '1a47bc60c4731f292955f00a75224950d2281fba',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/BaseModel.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseModelLang.php' => 
   array (
-    'fileHash' => '5c9241e29fbcaa96f7307382d47d7e9bd9f7819c',
+    'fileHash' => 'c952602d6feabfbe0d1ca03ea7754dff0edf7394',
+    'dependentFiles' => 
+    array (
+      0 => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Casts/LangField.php',
+    ),
+  ),
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseMorphPivot.php' => 
+  array (
+    'fileHash' => 'af97d55db4d5429dc575e320c041e8925ef6321b',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/BaseModelLang.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Panels/Policies/PostPanelPolicy.php' => 
   array (
-    'fileHash' => '60a39e666db87046d01931ab5d47348e8d4aacf9',
-    'dependentFiles' => 
-    array (
-      0 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Database/Factories/PlaceFactory.php',
-      1 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Database/Migrations/2021_01_01_000011_create_places_table.php',
-      2 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/FillplacesAction.php',
-      3 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Place.php',
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/BaseMorphPivot.php' => 
-  array (
-    'fileHash' => '6c0dfd44917bd13881920e88ba040bcc83928978',
+    'fileHash' => 'bb93ae79c9da75997eeba2de964cfeb0ae5b1927',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/BasePivot.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Panels/Policies/_ModulePanelPolicy.php' => 
   array (
-    'fileHash' => '5da0b4de04fc24ed79061e1f2ef7a6fadc841ec5',
+    'fileHash' => '49d6e54655b7631a69747c22e8ae2dfda7fdeca9',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/GeoNamesCap.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Panels/PostPanel.php' => 
   array (
-    'fileHash' => '0e9428b5613276a3c89ed5441b46caffa41775a1',
+    'fileHash' => '13deef34f56363146d655dd792aab4e5bd88ad1e',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/FillplacesAction.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Panels/_ModulePanel.php' => 
   array (
-    'fileHash' => '01dee3bbd037ee6b8ffaa7aa727947e1d5a1f508',
+    'fileHash' => 'ec0cb5bb0586213cca1b8d97470c8070d8d70a0e',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/FindNeighborsActions.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Post.php' => 
   array (
-    'fileHash' => 'b8293c1cf24929626e1ab5458c80d3bdc945b286',
+    'fileHash' => '0e5e79289f69b27a269a5aa438dc4e9bcf22b890',
+    'dependentFiles' => 
+    array (
+      0 => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Casts/LangField.php',
+      1 => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Database/Migrations/2018_01_01_080016_create_lang_posts_table.php',
+      2 => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseModelLang.php',
+    ),
+  ),
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Traits/LinkedTrait.php' => 
+  array (
+    'fileHash' => '094c9195175b6e7607b49ed13083b52a24f7fc3d',
+    'dependentFiles' => 
+    array (
+      0 => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Casts/LangField.php',
+      1 => '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseModelLang.php',
+    ),
+  ),
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Providers/LangServiceProvider.php' => 
+  array (
+    'fileHash' => '6ecfb848a62de8c57a9740070a198963799124f9',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/GetLatitudeLongitudeAction.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Providers/RouteServiceProvider.php' => 
   array (
-    'fileHash' => 'e56ed7ec797e0a7e72f8d070e7722a686070be5d',
+    'fileHash' => 'bd3d8860e8d462db5f0ba357746d1518a30458ee',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/MakeGeoJsonFileAction.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Routes/api.php' => 
   array (
-    'fileHash' => 'bfa11238dba1980279a719f3abfb336b7d76c0a1',
+    'fileHash' => 'a1f1bd881cf498c4414aebd009bd57f064087690',
     'dependentFiles' => 
     array (
     ),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/TestAction.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Routes/web.php' => 
   array (
-    'fileHash' => '7680dcf393819c949cbcf524bedf10a1fe3230a7',
-    'dependentFiles' => 
-    array (
-      0 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/_ModulePanel.php',
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/GeoNamesCapPanel.php' => 
-  array (
-    'fileHash' => '78aad84633f9f9d790acb7c09871473d5200c33c',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/PlacePanel.php' => 
-  array (
-    'fileHash' => '5169e8189d91c02472a936410f9d1ae7f5338409',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Policies/GeoNamesCapPanelPolicy.php' => 
-  array (
-    'fileHash' => '71dbb2987ee7cc76f0880920328550c07ea9d9de',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Policies/PlacePanelPolicy.php' => 
-  array (
-    'fileHash' => 'ea32ffce2fcb5df59bfc41862325e05f4e78b0f5',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Policies/_ModulePanelPolicy.php' => 
-  array (
-    'fileHash' => '917e52736eb64416d71dcdfb2cf26211d07308c1',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/_ModulePanel.php' => 
-  array (
-    'fileHash' => '4cf32539299c6d312f1f320a864068e75bdfca9b',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Place.php' => 
-  array (
-    'fileHash' => '775f12d97a069486dd122cae3d66e03ab659de97',
-    'dependentFiles' => 
-    array (
-      0 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Database/Factories/PlaceFactory.php',
-      1 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Database/Migrations/2021_01_01_000011_create_places_table.php',
-      2 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/FillplacesAction.php',
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Traits/GeoTrait.php' => 
-  array (
-    'fileHash' => 'cc9cd674d39e13aa04cf338f4a8fa4954c742bc6',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Traits/HasPlaceTrait.php' => 
-  array (
-    'fileHash' => '8e3002bd0b0949c8bdf463042fbe4bf59335f27a',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Providers/GeoServiceProvider.php' => 
-  array (
-    'fileHash' => '8bb8b40d0b73fc38be66016bd8f4682a414fcc6a',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Providers/RouteServiceProvider.php' => 
-  array (
-    'fileHash' => 'f72b6637c90942bb54c487e38561b354d32d5432',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Routes/api.php' => 
-  array (
-    'fileHash' => 'e15baf5f08125661026ed3230b03a9ea43fadef9',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Routes/web.php' => 
-  array (
-    'fileHash' => '11e36b2dd373814430ae292307583f584b21e582',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Services/GeoService.php' => 
-  array (
-    'fileHash' => '0caeea33500f39ad633bf73b2d4ea0048c92d42f',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Services/HereService.php' => 
-  array (
-    'fileHash' => 'd138ab3dacf16ab3b507cc6221f96e3163581f6e',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Transformers/GeoJsonCollection.php' => 
-  array (
-    'fileHash' => 'b4c826696ab4889d22de87e4b095f69702cb5385',
-    'dependentFiles' => 
-    array (
-      0 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/MakeGeoJsonFileAction.php',
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Transformers/GeoJsonResource.php' => 
-  array (
-    'fileHash' => '8fc663ddbb23bb36806ede946d99e4509244dee3',
-    'dependentFiles' => 
-    array (
-      0 => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Transformers/GeoJsonCollection.php',
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/View/Components/Card/Place.php' => 
-  array (
-    'fileHash' => 'decf6be7af4914e35c2469b377b8f02a7e880bb1',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/View/Components/Dashboard/Item.php' => 
-  array (
-    'fileHash' => '68121afa781a4a6a7e9dacf4a7353fff62bb72a6',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/View/Components/FormSearchAddressCategories.php' => 
-  array (
-    'fileHash' => 'a64d035a313949c0da6cc498cc8f328590a81067',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/configure.php' => 
-  array (
-    'fileHash' => '343dc1601f9eaef74ba9aef7441c54949ab61118',
+    'fileHash' => 'b15b2e5d1cf3f6bc61d6cec60497a19868164bdf',
     'dependentFiles' => 
     array (
     ),
   ),
 ),
 	'exportedNodesCallback' => static function (): array { return array (
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Database/Factories/PlaceFactory.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Casts/LangField.php' => 
   array (
     0 => 
     PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Database\\Factories\\PlaceFactory',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class ArticleFactory.
- */',
-         'namespace' => 'Modules\\Geo\\Database\\Factories',
-         'uses' => 
-        array (
-          'factory' => 'Illuminate\\Database\\Eloquent\\Factories\\Factory',
-          'model' => 'Modules\\Geo\\Models\\Place',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
+       'name' => 'Modules\\Lang\\Casts\\LangField',
+       'phpDoc' => NULL,
        'abstract' => false,
        'final' => false,
-       'extends' => 'Illuminate\\Database\\Eloquent\\Factories\\Factory',
+       'extends' => NULL,
        'implements' => 
       array (
+        0 => 'Illuminate\\Contracts\\Database\\Eloquent\\CastsAttributes',
       ),
        'usedTraits' => 
       array (
@@ -3295,52 +3154,25 @@ return [
        'statements' => 
       array (
         0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'model',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * The name of the factory\'s corresponding model.
-     *
-     * @var class-string<\\Illuminate\\Database\\Eloquent\\Model>
-     */',
-             'namespace' => 'Modules\\Geo\\Database\\Factories',
-             'uses' => 
-            array (
-              'factory' => 'Illuminate\\Database\\Eloquent\\Factories\\Factory',
-              'model' => 'Modules\\Geo\\Models\\Place',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => NULL,
-           'public' => false,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
         PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'definition',
+           'name' => 'get',
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * Define the model\'s default state.
+     * Cast the given value.
      *
-     * @return array
+     * @param BaseModelLang $model
+     * @param string        $key
+     * @param mixed         $value
+     * @param array         $attributes
+     *
+     * @return mixed
      */',
-             'namespace' => 'Modules\\Geo\\Database\\Factories',
+             'namespace' => 'Modules\\Lang\\Casts',
              'uses' => 
             array (
-              'factory' => 'Illuminate\\Database\\Eloquent\\Factories\\Factory',
-              'model' => 'Modules\\Geo\\Models\\Place',
+              'castsattributes' => 'Illuminate\\Contracts\\Database\\Eloquent\\CastsAttributes',
+              'basemodellang' => 'Modules\\Lang\\Models\\BaseModelLang',
             ),
              'constUses' => 
             array (
@@ -3355,6 +3187,135 @@ return [
            'returnType' => NULL,
            'parameters' => 
           array (
+            0 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'model',
+               'type' => NULL,
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'key',
+               'type' => NULL,
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            2 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'value',
+               'type' => NULL,
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            3 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'attributes',
+               'type' => NULL,
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'set',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Prepare the given value for storage.
+     *
+     * @param BaseModelLang       $model
+     * @param string              $key
+     * @param mixed               $value
+     * @param array               $attributes
+     * @param string              $key
+     * @param \\App\\Models\\Address $value
+     *
+     * @return array
+     */',
+             'namespace' => 'Modules\\Lang\\Casts',
+             'uses' => 
+            array (
+              'castsattributes' => 'Illuminate\\Contracts\\Database\\Eloquent\\CastsAttributes',
+              'basemodellang' => 'Modules\\Lang\\Models\\BaseModelLang',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'model',
+               'type' => NULL,
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'key',
+               'type' => NULL,
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            2 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'value',
+               'type' => NULL,
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            3 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'attributes',
+               'type' => NULL,
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
           ),
            'attributes' => 
           array (
@@ -3366,21 +3327,22 @@ return [
       ),
     )),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Database/Migrations/2021_01_01_000011_create_places_table.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Database/Migrations/2018_01_01_080016_create_lang_posts_table.php' => 
   array (
     0 => 
     PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'CreatePlacesTable',
+       'name' => 'CreateLangPostsTable',
        'phpDoc' => 
       PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
          'phpDocString' => '/**
- * Class CreatePlacesTable.
+ * Class CreatePostsTable.
  */',
          'namespace' => NULL,
          'uses' => 
         array (
           'blueprint' => 'Illuminate\\Database\\Schema\\Blueprint',
-          'mymodel' => 'Modules\\Geo\\Models\\Place',
+          'schema' => 'Illuminate\\Support\\Facades\\Schema',
+          'post' => 'Modules\\Lang\\Models\\Post',
           'xotbasemigration' => 'Modules\\Xot\\Database\\Migrations\\XotBaseMigration',
         ),
          'constUses' => 
@@ -3402,6 +3364,22 @@ return [
        'statements' => 
       array (
         0 => 
+        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'model_class',
+          ),
+           'phpDoc' => NULL,
+           'type' => '?string',
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
         PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'up',
            'phpDoc' => 
@@ -3415,7 +3393,8 @@ return [
              'uses' => 
             array (
               'blueprint' => 'Illuminate\\Database\\Schema\\Blueprint',
-              'mymodel' => 'Modules\\Geo\\Models\\Place',
+              'schema' => 'Illuminate\\Support\\Facades\\Schema',
+              'post' => 'Modules\\Lang\\Models\\Post',
               'xotbasemigration' => 'Modules\\Xot\\Database\\Migrations\\XotBaseMigration',
             ),
              'constUses' => 
@@ -3442,26 +3421,12 @@ return [
       ),
     )),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Database/Seeders/GeoDatabaseSeeder.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Database/Seeders/LangDatabaseSeeder.php' => 
   array (
     0 => 
     PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Database\\Seeders\\GeoDatabaseSeeder',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class GeoDatabaseSeeder.
- */',
-         'namespace' => 'Modules\\Geo\\Database\\Seeders',
-         'uses' => 
-        array (
-          'model' => 'Illuminate\\Database\\Eloquent\\Model',
-          'seeder' => 'Illuminate\\Database\\Seeder',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
+       'name' => 'Modules\\Lang\\Database\\Seeders\\LangDatabaseSeeder',
+       'phpDoc' => NULL,
        'abstract' => false,
        'final' => false,
        'extends' => 'Illuminate\\Database\\Seeder',
@@ -3486,7 +3451,7 @@ return [
      *
      * @return void
      */',
-             'namespace' => 'Modules\\Geo\\Database\\Seeders',
+             'namespace' => 'Modules\\Lang\\Database\\Seeders',
              'uses' => 
             array (
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
@@ -3516,543 +3481,22 @@ return [
       ),
     )),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Http/Livewire/FormSearchAddressCategories.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseModel.php' => 
   array (
     0 => 
     PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Http\\Livewire\\FormSearchAddressCategories',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Undocumented class.
- */',
-         'namespace' => 'Modules\\Geo\\Http\\Livewire',
-         'uses' => 
-        array (
-          'renderable' => 'Illuminate\\Contracts\\Support\\Renderable',
-          'sessionmanager' => 'Illuminate\\Session\\SessionManager',
-          'component' => 'Livewire\\Component',
-          'actionservice' => 'Modules\\Xot\\Services\\ActionService',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Livewire\\Component',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'name',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'form_data',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'array',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'showActivityTypes',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'bool',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        3 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'enabledTypes',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'Illuminate\\Support\\Collection',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        4 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'warningSuggestedAddresses',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'bool',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        5 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'warningCivicNumber',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'bool',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        6 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'email',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        7 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'cap',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        8 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'messageError',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'bool',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        9 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'session',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'Illuminate\\Session\\SessionManager',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        10 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'mount',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Mount function.
-     *
-     * param \\Illuminate\\View\\ComponentAttributeBag $attributes
-     * param \\Illuminate\\Support\\HtmlString         $slot
-     *
-     * @return void
-     */',
-             'namespace' => 'Modules\\Geo\\Http\\Livewire',
-             'uses' => 
-            array (
-              'renderable' => 'Illuminate\\Contracts\\Support\\Renderable',
-              'sessionmanager' => 'Illuminate\\Session\\SessionManager',
-              'component' => 'Livewire\\Component',
-              'actionservice' => 'Modules\\Xot\\Services\\ActionService',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'session',
-               'type' => 'Illuminate\\Session\\SessionManager',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        11 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'render',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Undocumented function.
-     */',
-             'namespace' => 'Modules\\Geo\\Http\\Livewire',
-             'uses' => 
-            array (
-              'renderable' => 'Illuminate\\Contracts\\Support\\Renderable',
-              'sessionmanager' => 'Illuminate\\Session\\SessionManager',
-              'component' => 'Livewire\\Component',
-              'actionservice' => 'Modules\\Xot\\Services\\ActionService',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'Illuminate\\Contracts\\Support\\Renderable',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        12 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'search',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Undocumented function.
-     *
-     * @return void
-     */',
-             'namespace' => 'Modules\\Geo\\Http\\Livewire',
-             'uses' => 
-            array (
-              'renderable' => 'Illuminate\\Contracts\\Support\\Renderable',
-              'sessionmanager' => 'Illuminate\\Session\\SessionManager',
-              'component' => 'Livewire\\Component',
-              'actionservice' => 'Modules\\Xot\\Services\\ActionService',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        13 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'formatAddress',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Undocumented function.
-     */',
-             'namespace' => 'Modules\\Geo\\Http\\Livewire',
-             'uses' => 
-            array (
-              'renderable' => 'Illuminate\\Contracts\\Support\\Renderable',
-              'sessionmanager' => 'Illuminate\\Session\\SessionManager',
-              'component' => 'Livewire\\Component',
-              'actionservice' => 'Modules\\Xot\\Services\\ActionService',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'string',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        14 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'placeChanged',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Undocumented function.
-     *
-     * @return void
-     */',
-             'namespace' => 'Modules\\Geo\\Http\\Livewire',
-             'uses' => 
-            array (
-              'renderable' => 'Illuminate\\Contracts\\Support\\Renderable',
-              'sessionmanager' => 'Illuminate\\Session\\SessionManager',
-              'component' => 'Livewire\\Component',
-              'actionservice' => 'Modules\\Xot\\Services\\ActionService',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'val0',
-               'type' => 'string',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            1 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'val1',
-               'type' => 'string',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        15 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'saveNotServed',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Undocumented function.
-     *
-     * @return void
-     */',
-             'namespace' => 'Modules\\Geo\\Http\\Livewire',
-             'uses' => 
-            array (
-              'renderable' => 'Illuminate\\Contracts\\Support\\Renderable',
-              'sessionmanager' => 'Illuminate\\Session\\SessionManager',
-              'component' => 'Livewire\\Component',
-              'actionservice' => 'Modules\\Xot\\Services\\ActionService',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Http/Livewire/Test.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Http\\Livewire\\Test',
-       'phpDoc' => NULL,
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Livewire\\Component',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'lookup',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Lookup intermediary.
-     */',
-             'namespace' => 'Modules\\Geo\\Http\\Livewire',
-             'uses' => 
-            array (
-              'component' => 'Livewire\\Component',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => NULL,
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'render',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/BaseModel.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\BaseModel',
+       'name' => 'Modules\\Lang\\Models\\BaseModel',
        'phpDoc' => 
       PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
          'phpDocString' => '/**
  * Class BaseModel.
  */',
-         'namespace' => 'Modules\\Geo\\Models',
+         'namespace' => 'Modules\\Lang\\Models',
          'uses' => 
         array (
+          'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
           'model' => 'Illuminate\\Database\\Eloquent\\Model',
+          'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
           'updater' => 'Modules\\Xot\\Traits\\Updater',
         ),
          'constUses' => 
@@ -4067,7 +3511,8 @@ return [
       ),
        'usedTraits' => 
       array (
-        0 => 'Modules\\Xot\\Traits\\Updater',
+        0 => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+        1 => 'Modules\\Xot\\Traits\\Updater',
       ),
        'traitUseAdaptations' => 
       array (
@@ -4089,10 +3534,12 @@ return [
      *
      * @var bool
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4128,17 +3575,19 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'fillable',
+            0 => 'connection',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var string[]
+     * @var string
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4158,17 +3607,19 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'casts',
+            0 => 'fillable',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var array<string, string>
+     * @var string[]
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4188,17 +3639,19 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'dates',
+            0 => 'casts',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var string[]
+     * @var array<string, string>
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4218,17 +3671,19 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'primaryKey',
+            0 => 'dates',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var string
+     * @var string[]
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4248,17 +3703,19 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'incrementing',
+            0 => 'primaryKey',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var bool
+     * @var string
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4266,7 +3723,7 @@ return [
             ),
           )),
            'type' => NULL,
-           'public' => true,
+           'public' => false,
            'private' => false,
            'static' => false,
            'readonly' => false,
@@ -4278,47 +3735,19 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'hidden',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @var array<int, string>
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'model' => 'Illuminate\\Database\\Eloquent\\Model',
-              'updater' => 'Modules\\Xot\\Traits\\Updater',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => NULL,
-           'public' => false,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        8 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'timestamps',
+            0 => 'incrementing',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
      * @var bool
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4334,18 +3763,102 @@ return [
           array (
           ),
         )),
-        9 => 
+        8 => 
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'connection',
+            0 => 'hidden',
           ),
-           'phpDoc' => NULL,
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @var array<int, string>
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
            'type' => NULL,
            'public' => false,
            'private' => false,
            'static' => false,
            'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        9 => 
+        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'timestamps',
+          ),
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @var bool
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'type' => NULL,
+           'public' => true,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        10 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'newFactory',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Create a new factory instance for the model.
+     *
+     * @return \\Illuminate\\Database\\Eloquent\\Factories\\Factory
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => false,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+          ),
            'attributes' => 
           array (
           ),
@@ -4356,11 +3869,11 @@ return [
       ),
     )),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/BaseModelLang.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseModelLang.php' => 
   array (
     0 => 
     PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\BaseModelLang',
+       'name' => 'Modules\\Lang\\Models\\BaseModelLang',
        'phpDoc' => 
       PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
          'phpDocString' => '/**
@@ -4368,12 +3881,13 @@ return [
  *
  * @property string|null $post_type
  */',
-         'namespace' => 'Modules\\Geo\\Models',
+         'namespace' => 'Modules\\Lang\\Models',
          'uses' => 
         array (
           'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
           'model' => 'Illuminate\\Database\\Eloquent\\Model',
           'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
+          'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
           'updater' => 'Modules\\Xot\\Traits\\Updater',
         ),
          'constUses' => 
@@ -4412,12 +3926,13 @@ return [
      *
      * @var bool
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
               'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4453,25 +3968,9 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'fillable',
+            0 => 'connection',
           ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @var string[]
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
-              'model' => 'Illuminate\\Database\\Eloquent\\Model',
-              'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
-              'updater' => 'Modules\\Xot\\Traits\\Updater',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
+           'phpDoc' => NULL,
            'type' => NULL,
            'public' => false,
            'private' => false,
@@ -4485,19 +3984,20 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'casts',
+            0 => 'fillable',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var array<string, string>
+     * @var string[]
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
               'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4517,19 +4017,20 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'dates',
+            0 => 'casts',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var string[]
+     * @var array<string, string>
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
               'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4549,19 +4050,20 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'primaryKey',
+            0 => 'dates',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var string
+     * @var string[]
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
               'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4581,19 +4083,20 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'incrementing',
+            0 => 'primaryKey',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var bool
+     * @var string
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
               'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4601,7 +4104,7 @@ return [
             ),
           )),
            'type' => NULL,
-           'public' => true,
+           'public' => false,
            'private' => false,
            'static' => false,
            'readonly' => false,
@@ -4613,51 +4116,20 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'hidden',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @var array<int, string>
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
-              'model' => 'Illuminate\\Database\\Eloquent\\Model',
-              'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
-              'updater' => 'Modules\\Xot\\Traits\\Updater',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => NULL,
-           'public' => false,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        8 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'timestamps',
+            0 => 'incrementing',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
      * @var bool
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
               'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
             ),
              'constUses' => 
@@ -4673,18 +4145,105 @@ return [
           array (
           ),
         )),
-        9 => 
+        8 => 
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'connection',
+            0 => 'hidden',
           ),
-           'phpDoc' => NULL,
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @var array<int, string>
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
            'type' => NULL,
            'public' => false,
            'private' => false,
            'static' => false,
            'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        9 => 
+        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'timestamps',
+          ),
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @var bool
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'type' => NULL,
+           'public' => true,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        10 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'newFactory',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Create a new factory instance for the model.
+     *
+     * @return \\Illuminate\\Database\\Eloquent\\Factories\\Factory
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'linkedtrait' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
+              'factoryservice' => 'Modules\\Xot\\Services\\FactoryService',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => false,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+          ),
            'attributes' => 
           array (
           ),
@@ -4695,17 +4254,17 @@ return [
       ),
     )),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/BaseMorphPivot.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/BaseMorphPivot.php' => 
   array (
     0 => 
     PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\BaseMorphPivot',
+       'name' => 'Modules\\Lang\\Models\\BaseMorphPivot',
        'phpDoc' => 
       PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
          'phpDocString' => '/**
  * Class BaseMorphPivot.
  */',
-         'namespace' => 'Modules\\Geo\\Models',
+         'namespace' => 'Modules\\Lang\\Models',
          'uses' => 
         array (
           'morphpivot' => 'Illuminate\\Database\\Eloquent\\Relations\\MorphPivot',
@@ -4745,7 +4304,7 @@ return [
      *
      * @var bool
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'morphpivot' => 'Illuminate\\Database\\Eloquent\\Relations\\MorphPivot',
@@ -4784,23 +4343,9 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'appends',
+            0 => 'connection',
           ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @var array
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'morphpivot' => 'Illuminate\\Database\\Eloquent\\Relations\\MorphPivot',
-              'updater' => 'Modules\\Xot\\Traits\\Updater',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
+           'phpDoc' => NULL,
            'type' => NULL,
            'public' => false,
            'private' => false,
@@ -4814,14 +4359,14 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'primaryKey',
+            0 => 'appends',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var string
+     * @var array
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'morphpivot' => 'Illuminate\\Database\\Eloquent\\Relations\\MorphPivot',
@@ -4844,14 +4389,14 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'incrementing',
+            0 => 'primaryKey',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var bool
+     * @var string
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'morphpivot' => 'Illuminate\\Database\\Eloquent\\Relations\\MorphPivot',
@@ -4862,7 +4407,7 @@ return [
             ),
           )),
            'type' => NULL,
-           'public' => true,
+           'public' => false,
            'private' => false,
            'static' => false,
            'readonly' => false,
@@ -4874,14 +4419,14 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'timestamps',
+            0 => 'incrementing',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
      * @var bool
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'morphpivot' => 'Illuminate\\Database\\Eloquent\\Relations\\MorphPivot',
@@ -4904,14 +4449,14 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'dates',
+            0 => 'timestamps',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var string[]
+     * @var bool
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'morphpivot' => 'Illuminate\\Database\\Eloquent\\Relations\\MorphPivot',
@@ -4922,7 +4467,7 @@ return [
             ),
           )),
            'type' => NULL,
-           'public' => false,
+           'public' => true,
            'private' => false,
            'static' => false,
            'readonly' => false,
@@ -4934,14 +4479,14 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'fillable',
+            0 => 'dates',
           ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
      * @var string[]
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
               'morphpivot' => 'Illuminate\\Database\\Eloquent\\Relations\\MorphPivot',
@@ -4964,9 +4509,23 @@ return [
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
-            0 => 'connection',
+            0 => 'fillable',
           ),
-           'phpDoc' => NULL,
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @var string[]
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'morphpivot' => 'Illuminate\\Database\\Eloquent\\Relations\\MorphPivot',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
            'type' => NULL,
            'public' => false,
            'private' => false,
@@ -4982,35 +4541,826 @@ return [
       ),
     )),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/BasePivot.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Panels/Policies/PostPanelPolicy.php' => 
   array (
     0 => 
     PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\BasePivot',
+       'name' => 'Modules\\Lang\\Models\\Panels\\Policies\\PostPanelPolicy',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Modules\\Cms\\Models\\Panels\\Policies\\XotBasePanelPolicy',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Panels/Policies/_ModulePanelPolicy.php' => 
+  array (
+    0 => 
+    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Lang\\Models\\Panels\\Policies\\_ModulePanelPolicy',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Modules\\Cms\\Models\\Panels\\Policies\\XotBasePanelPolicy',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Panels/PostPanel.php' => 
+  array (
+    0 => 
+    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Lang\\Models\\Panels\\PostPanel',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'model',
+          ),
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * The model the resource corresponds to.
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'type' => 'string',
+           'public' => true,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'title',
+          ),
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * The single value that should be used to represent the resource when being displayed.
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'type' => 'string',
+           'public' => true,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'search',
+          ),
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * The columns that should be searched.
+     *
+     * @var array
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'type' => NULL,
+           'public' => true,
+           'private' => false,
+           'static' => true,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'with',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * The relationships that should be eager loaded on index queries.
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        4 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'search',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        5 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'optionId',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * on select the option id.
+     *
+     * quando aggiungi un campo select, è il numero della chiave
+     * che viene messo come valore su value="id"
+     *
+     * @return int|string|null
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'row',
+               'type' => 'Illuminate\\Database\\Eloquent\\Model',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        6 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'optionLabel',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * on select the option label.
+     *
+     * @param mixed $row
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'string',
+           'parameters' => 
+          array (
+            0 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'row',
+               'type' => NULL,
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        7 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'indexNav',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * index navigation.
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => '?Illuminate\\Contracts\\Support\\Renderable',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        8 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'indexQuery',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Build an "index" query for the given resource.
+     *
+     * @param RowsContract $query
+     *
+     * @return RowsContract
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'data',
+               'type' => 'array',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'query',
+               'type' => NULL,
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        9 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'fields',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Get the fields displayed by the resource.
+        \'value\'=>\'..\',
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        10 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'tabs',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Get the tabs available.
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        11 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'cards',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Get the cards available for the request.
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+            0 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'request',
+               'type' => 'Illuminate\\Http\\Request',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        12 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'filters',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Get the filters available for the resource.
+     *
+     * @param \\Illuminate\\Http\\Request $request
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+            0 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'request',
+               'type' => '?Illuminate\\Http\\Request',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => true,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        13 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'lenses',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Get the lenses available for the resource.
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+            0 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'request',
+               'type' => 'Illuminate\\Http\\Request',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        14 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'actions',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Get the actions available for the resource.
+     */',
+             'namespace' => 'Modules\\Lang\\Models\\Panels',
+             'uses' => 
+            array (
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'request' => 'Illuminate\\Http\\Request',
+              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+              'rowscontract' => 'Modules\\Xot\\Contracts\\RowsContract',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Panels/_ModulePanel.php' => 
+  array (
+    0 => 
+    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Lang\\Models\\Panels\\_ModulePanel',
        'phpDoc' => 
       PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
          'phpDocString' => '/**
- * Class BasePivot.
+ * Class _ModulePanel.
  */',
-         'namespace' => 'Modules\\Geo\\Models',
+         'namespace' => 'Modules\\Lang\\Models\\Panels',
          'uses' => 
         array (
-          'pivot' => 'Illuminate\\Database\\Eloquent\\Relations\\Pivot',
-          'updater' => 'Modules\\Xot\\Traits\\Updater',
+          'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
         ),
          'constUses' => 
         array (
         ),
       )),
-       'abstract' => true,
+       'abstract' => false,
        'final' => false,
-       'extends' => 'Illuminate\\Database\\Eloquent\\Relations\\Pivot',
+       'extends' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'actions',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Post.php' => 
+  array (
+    0 => 
+    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'Modules\\Lang\\Models\\Post',
+       'phpDoc' => 
+      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/**
+ * Modules\\Lang\\Models\\Post.
+ *
+ * @property int                             $id
+ * @property int|null                        $user_id
+ * @property string|null                     $post_type
+ * @property int|null                        $post_id
+ * @property string|null                     $lang
+ * @property string|null                     $title
+ * @property string|null                     $subtitle
+ * @property string|null                     $guid
+ * @property string|null                     $txt
+ * @property string|null                     $image_src
+ * @property string|null                     $image_alt
+ * @property string|null                     $image_title
+ * @property string|null                     $meta_description
+ * @property string|null                     $meta_keywords
+ * @property int|null                        $author_id
+ * @property \\Illuminate\\Support\\Carbon|null $created_at
+ * @property \\Illuminate\\Support\\Carbon|null $updated_at
+ * @property int|null                        $category_id
+ * @property string|null                     $image
+ * @property string|null                     $content
+ * @property int|null                        $published
+ * @property string|null                     $created_by
+ * @property string|null                     $updated_by
+ * @property string|null                     $url
+ * @property array|null                      $url_lang
+ * @property array|null                      $image_resize_src
+ * @property string|null                     $linked_count
+ * @property string|null                     $related_count
+ * @property string|null                     $relatedrev_count
+ * @property string|null                     $linkable_type
+ * @property int|null                        $views_count
+ * @property Model|\\Eloquent                 $linkable
+ *
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post newModelQuery()
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post newQuery()
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post query()
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereAuthorId($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereCategoryId($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereContent($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereCreatedAt($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereCreatedBy($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereGuid($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereId($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereImage($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereImageAlt($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereImageResizeSrc($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereImageSrc($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereImageTitle($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereLang($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereLinkableType($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereLinkedCount($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereMetaDescription($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereMetaKeywords($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post wherePostId($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post wherePostType($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post wherePublished($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereRelatedCount($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereRelatedrevCount($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereSubtitle($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereTitle($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereTxt($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereUpdatedAt($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereUpdatedBy($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereUrl($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereUrlLang($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereUserId($value)
+ * @method static \\Illuminate\\Database\\Eloquent\\Builder|Post whereViewsCount($value)
+ *
+ * @mixin \\Eloquent
+ */',
+         'namespace' => 'Modules\\Lang\\Models',
+         'uses' => 
+        array (
+          'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+          'model' => 'Illuminate\\Database\\Eloquent\\Model',
+          'str' => 'Illuminate\\Support\\Str',
+          'updater' => 'Modules\\Xot\\Traits\\Updater',
+          'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+          'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Illuminate\\Database\\Eloquent\\Model',
        'implements' => 
       array (
       ),
        'usedTraits' => 
       array (
         0 => 'Modules\\Xot\\Traits\\Updater',
+        1 => 'Spatie\\Sluggable\\HasSlug',
       ),
        'traitUseAdaptations' => 
       array (
@@ -5032,11 +5382,15 @@ return [
      *
      * @var bool
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
-              'pivot' => 'Illuminate\\Database\\Eloquent\\Relations\\Pivot',
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
             ),
              'constUses' => 
             array (
@@ -5078,240 +5432,15 @@ return [
              'phpDocString' => '/**
      * @var string
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
-              'pivot' => 'Illuminate\\Database\\Eloquent\\Relations\\Pivot',
-              'updater' => 'Modules\\Xot\\Traits\\Updater',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => NULL,
-           'public' => false,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        3 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'appends',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @var array
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'pivot' => 'Illuminate\\Database\\Eloquent\\Relations\\Pivot',
-              'updater' => 'Modules\\Xot\\Traits\\Updater',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => NULL,
-           'public' => false,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        4 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'casts',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @var array<string, string>
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'pivot' => 'Illuminate\\Database\\Eloquent\\Relations\\Pivot',
-              'updater' => 'Modules\\Xot\\Traits\\Updater',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => NULL,
-           'public' => false,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        5 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'dates',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @var string[]
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'pivot' => 'Illuminate\\Database\\Eloquent\\Relations\\Pivot',
-              'updater' => 'Modules\\Xot\\Traits\\Updater',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => NULL,
-           'public' => false,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        6 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'primaryKey',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Undocumented variable.
-     *
-     * @var string
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'pivot' => 'Illuminate\\Database\\Eloquent\\Relations\\Pivot',
-              'updater' => 'Modules\\Xot\\Traits\\Updater',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => NULL,
-           'public' => false,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        7 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'incrementing',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @var bool
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'pivot' => 'Illuminate\\Database\\Eloquent\\Relations\\Pivot',
-              'updater' => 'Modules\\Xot\\Traits\\Updater',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => NULL,
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/GeoNamesCap.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\GeoNamesCap',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Modules\\Geo\\Models\\GeoNamesCap.
- *
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|GeoNamesCap newModelQuery()
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|GeoNamesCap newQuery()
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|GeoNamesCap query()
- *
- * @mixin \\Eloquent
- */',
-         'namespace' => 'Modules\\Geo\\Models',
-         'uses' => 
-        array (
-          'model' => 'Illuminate\\Database\\Eloquent\\Model',
-          'updater' => 'Modules\\Xot\\Traits\\Updater',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Illuminate\\Database\\Eloquent\\Model',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-        0 => 'Modules\\Xot\\Traits\\Updater',
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'table',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @var string
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
               'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
               'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
             ),
              'constUses' => 
             array (
@@ -5326,1165 +5455,7 @@ return [
           array (
           ),
         )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/FillplacesAction.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Panels\\Actions\\FillplacesAction',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class SyncInputs.
- */',
-         'namespace' => 'Modules\\Geo\\Models\\Panels\\Actions',
-         'uses' => 
-        array (
-          'xotbasepanelaction' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-          'place' => 'Modules\\Geo\\Models\\Place',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'onContainer',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'bool',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'icon',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'handle',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/FindNeighborsActions.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Panels\\Actions\\FindNeighborsActions',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class FindNeighborsActions.
- */',
-         'namespace' => 'Modules\\Geo\\Models\\Panels\\Actions',
-         'uses' => 
-        array (
-          'xotbasepanelaction' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'onItem',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'bool',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'icon',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'handle',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @return mixed
-     */',
-             'namespace' => 'Modules\\Geo\\Models\\Panels\\Actions',
-             'uses' => 
-            array (
-              'xotbasepanelaction' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/GetLatitudeLongitudeAction.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Panels\\Actions\\GetLatitudeLongitudeAction',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class GetLatitudeLongitudeAction.
- */',
-         'namespace' => 'Modules\\Geo\\Models\\Panels\\Actions',
-         'uses' => 
-        array (
-          'xotbasepanelaction' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-          'importservice' => 'Modules\\Xot\\Services\\ImportService',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'onContainer',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'bool',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'icon',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'handle',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'void',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/MakeGeoJsonFileAction.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Panels\\Actions\\MakeGeoJsonFileAction',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class MakeGeoJsonFileAction.
- */',
-         'namespace' => 'Modules\\Geo\\Models\\Panels\\Actions',
-         'uses' => 
-        array (
-          'storage' => 'Illuminate\\Support\\Facades\\Storage',
-          'xotbasepanelaction' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-          'geojsoncollection' => 'Modules\\Geo\\Transformers\\GeoJsonCollection',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'onContainer',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'bool',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'icon',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'handle',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @return GeoJsonCollection
-     */',
-             'namespace' => 'Modules\\Geo\\Models\\Panels\\Actions',
-             'uses' => 
-            array (
-              'storage' => 'Illuminate\\Support\\Facades\\Storage',
-              'xotbasepanelaction' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-              'geojsoncollection' => 'Modules\\Geo\\Transformers\\GeoJsonCollection',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Actions/TestAction.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Panels\\Actions\\TestAction',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class TestAction.
- */',
-         'namespace' => 'Modules\\Geo\\Models\\Panels\\Actions',
-         'uses' => 
-        array (
-          'xotbasepanelaction' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Cms\\Models\\Panels\\Actions\\XotBasePanelAction',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'onItem',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'bool',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'icon',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'handle',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/GeoNamesCapPanel.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Panels\\GeoNamesCapPanel',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class GeoNamesCapPanel.
- */',
-         'namespace' => 'Modules\\Geo\\Models\\Panels',
-         'uses' => 
-        array (
-          'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'model',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * The model the resource corresponds to.
-     */',
-             'namespace' => 'Modules\\Geo\\Models\\Panels',
-             'uses' => 
-            array (
-              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => true,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'title',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * The single value that should be used to represent the resource when being displayed.
-     */',
-             'namespace' => 'Modules\\Geo\\Models\\Panels',
-             'uses' => 
-            array (
-              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => true,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'fields',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'array',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/PlacePanel.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Panels\\PlacePanel',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class PlacePanel.
- */',
-         'namespace' => 'Modules\\Geo\\Models\\Panels',
-         'uses' => 
-        array (
-          'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'model',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * The model the resource corresponds to.
-     */',
-             'namespace' => 'Modules\\Geo\\Models\\Panels',
-             'uses' => 
-            array (
-              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => 'string',
-           'public' => false,
-           'private' => false,
-           'static' => true,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'title',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * The single value that should be used to represent the resource when being displayed.
-     */',
-             'namespace' => 'Modules\\Geo\\Models\\Panels',
-             'uses' => 
-            array (
-              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => 'string',
-           'public' => false,
-           'private' => false,
-           'static' => true,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'search',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * The columns that should be searched.
-     */',
-             'namespace' => 'Modules\\Geo\\Models\\Panels',
-             'uses' => 
-            array (
-              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => 'array',
-           'public' => false,
-           'private' => false,
-           'static' => true,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
         3 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'with',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * The relationships that should be eager loaded on index queries.
-     */',
-             'namespace' => 'Modules\\Geo\\Models\\Panels',
-             'uses' => 
-            array (
-              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'array',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        4 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'fieldsOld',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Get the fields displayed by the resource.
-     */',
-             'namespace' => 'Modules\\Geo\\Models\\Panels',
-             'uses' => 
-            array (
-              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'array',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        5 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'fields',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Get the fields displayed by the resource.
-     */',
-             'namespace' => 'Modules\\Geo\\Models\\Panels',
-             'uses' => 
-            array (
-              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'array',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        6 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'actions',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Get the actions available for the resource.
-     */',
-             'namespace' => 'Modules\\Geo\\Models\\Panels',
-             'uses' => 
-            array (
-              'xotbasepanel' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'array',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Policies/GeoNamesCapPanelPolicy.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Panels\\Policies\\GeoNamesCapPanelPolicy',
-       'phpDoc' => NULL,
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Cms\\Models\\Panels\\Policies\\XotBasePanelPolicy',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Policies/PlacePanelPolicy.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Panels\\Policies\\PlacePanelPolicy',
-       'phpDoc' => NULL,
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Cms\\Models\\Panels\\Policies\\XotBasePanelPolicy',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/Policies/_ModulePanelPolicy.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Panels\\Policies\\_ModulePanelPolicy',
-       'phpDoc' => NULL,
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Cms\\Models\\Panels\\Policies\\XotBasePanelPolicy',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'test',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'bool',
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'user',
-               'type' => 'Modules\\Xot\\Contracts\\UserContract',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            1 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'panel',
-               'type' => 'Modules\\Cms\\Contracts\\PanelContract',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Panels/_ModulePanel.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Panels\\_ModulePanel',
-       'phpDoc' => NULL,
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Cms\\Models\\Panels\\XotBasePanel',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'actions',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'array',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Place.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Models\\Place',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Modules\\Geo\\Models\\Place.
- *
- * @property int                                                                  $id
- * @property string|null                                                          $post_type
- * @property int|null                                                             $post_id
- * @property string|null                                                          $formatted_address
- * @property string|null                                                          $latitude
- * @property string|null                                                          $longitude
- * @property string|null                                                          $premise
- * @property string|null                                                          $premise_short
- * @property string|null                                                          $locality
- * @property string|null                                                          $locality_short
- * @property string|null                                                          $postal_town
- * @property string|null                                                          $postal_town_short
- * @property string|null                                                          $administrative_area_level_3
- * @property string|null                                                          $administrative_area_level_3_short
- * @property string|null                                                          $administrative_area_level_2
- * @property string|null                                                          $administrative_area_level_2_short
- * @property string|null                                                          $administrative_area_level_1
- * @property string|null                                                          $administrative_area_level_1_short
- * @property string|null                                                          $country
- * @property string|null                                                          $country_short
- * @property string|null                                                          $street_number
- * @property string|null                                                          $street_number_short
- * @property string|null                                                          $route
- * @property string|null                                                          $route_short
- * @property string|null                                                          $postal_code
- * @property string|null                                                          $postal_code_short
- * @property string|null                                                          $googleplace_url
- * @property string|null                                                          $googleplace_url_short
- * @property string|null                                                          $point_of_interest
- * @property string|null                                                          $point_of_interest_short
- * @property string|null                                                          $political
- * @property string|null                                                          $political_short
- * @property string|null                                                          $campground
- * @property string|null                                                          $campground_short
- * @property string|null                                                          $nearest_street
- * @property string|null                                                          $created_by
- * @property string|null                                                          $updated_by
- * @property string|null                                                          $deleted_by
- * @property \\Illuminate\\Support\\Carbon|null                                      $created_at
- * @property \\Illuminate\\Support\\Carbon|null                                      $updated_at
- * @property string|null                                                          $model_type
- * @property int|null                                                             $model_id
- * @property string|null                                                          $guid
- * @property string|null                                                          $image_src
- * @property string|null                                                          $lang
- * @property string|null                                                          $subtitle
- * @property string|null                                                          $title
- * @property string|null                                                          $txt
- * @property string|null                                                          $user_handle
- * @property string                                                               $value
- * @property \\Illuminate\\Database\\Eloquent\\Collection|\\Modules\\Xot\\Models\\Image[] $images
- * @property int|null                                                             $images_count
- * @property \\Illuminate\\Database\\Eloquent\\Model|\\Eloquent                        $linked
- * @property \\Modules\\Lang\\Models\\Post|null                                       $post
- * @property \\Illuminate\\Database\\Eloquent\\Collection|\\Modules\\Lang\\Models\\Post[] $posts
- * @property int|null                                                             $posts_count
- * @property mixed                                                                $address
- * @property mixed                                                                $latlng
- * @property mixed                                                                $url
- *
- * @method static \\Modules\\Geo\\Database\\Factories\\PlaceFactory        factory(...$parameters)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         newModelQuery()
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         newQuery()
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|BaseModelLang ofItem(string $guid)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         query()
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereAdministrativeAreaLevel1($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereAdministrativeAreaLevel1Short($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereAdministrativeAreaLevel2($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereAdministrativeAreaLevel2Short($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereAdministrativeAreaLevel3($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereAdministrativeAreaLevel3Short($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereCampground($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereCampgroundShort($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereCountry($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereCountryShort($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereCreatedAt($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereCreatedBy($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereDeletedBy($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereFormattedAddress($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereGoogleplaceUrl($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereGoogleplaceUrlShort($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereId($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereLatitude($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereLocality($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereLocalityShort($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereLongitude($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereModelId($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereModelType($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereNearestStreet($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePointOfInterest($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePointOfInterestShort($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePolitical($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePoliticalShort($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePostId($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePostType($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePostalCode($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePostalCodeShort($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePostalTown($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePostalTownShort($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePremise($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         wherePremiseShort($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereRoute($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereRouteShort($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereStreetNumber($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereStreetNumberShort($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereUpdatedAt($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place         whereUpdatedBy($value)
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|BaseModelLang withPost(string $guid)
- *
- * @mixin \\Eloquent
- *
- * @method static \\Illuminate\\Database\\Eloquent\\Builder|Place whereAddress($value)
- */',
-         'namespace' => 'Modules\\Geo\\Models',
-         'uses' => 
-        array (
-          'exception' => 'Exception',
-          'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Modules\\Geo\\Models\\BaseModelLang',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-        0 => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
@@ -6495,11 +5466,15 @@ return [
              'phpDocString' => '/**
      * @var string[]
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
-              'exception' => 'Exception',
-              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
             ),
              'constUses' => 
             array (
@@ -6514,37 +5489,7 @@ return [
           array (
           ),
         )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'address_components',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @var string[]
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'exception' => 'Exception',
-              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => 'array',
-           'public' => true,
-           'private' => false,
-           'static' => true,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
+        4 => 
         PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
            'names' => 
           array (
@@ -6553,13 +5498,17 @@ return [
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * @var string[]
+     * @var array
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
-              'exception' => 'Exception',
-              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
             ),
              'constUses' => 
             array (
@@ -6574,120 +5523,217 @@ return [
           array (
           ),
         )),
-        3 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'newFactory',
+        5 => 
+        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'primaryKey',
+          ),
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
-     * Create a new factory instance for the model.
-     *
-     * @return \\Illuminate\\Database\\Eloquent\\Factories\\Factory
+     * @var string
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
-              'exception' => 'Exception',
-              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
             ),
              'constUses' => 
             array (
             ),
           )),
-           'byRef' => false,
+           'type' => NULL,
            'public' => false,
            'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => true,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        4 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'getValueAttribute',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @param mixed $value
-     *
-     * @return string
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'exception' => 'Exception',
-              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
            'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'value',
-               'type' => NULL,
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        5 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'linked',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @return \\Illuminate\\Database\\Eloquent\\Relations\\MorphTo
-     */',
-             'namespace' => 'Modules\\Geo\\Models',
-             'uses' => 
-            array (
-              'exception' => 'Exception',
-              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-          ),
+           'readonly' => false,
            'attributes' => 
           array (
           ),
         )),
         6 => 
+        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'incrementing',
+          ),
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @var bool
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'type' => NULL,
+           'public' => true,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        7 => 
+        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'dates',
+          ),
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @var string[]
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'type' => NULL,
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        8 => 
+        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'casts',
+          ),
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @var array<string, string>
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'type' => NULL,
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        9 => 
         PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'setLatlngAttribute',
+           'name' => 'getSlugOptions',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Get the options for generating the slug.
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Spatie\\Sluggable\\SlugOptions',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        10 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'linkable',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @return \\Illuminate\\Database\\Eloquent\\Relations\\MorphTo
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        11 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'setTitleAttribute',
            'phpDoc' => NULL,
            'byRef' => false,
            'public' => true,
@@ -6701,7 +5747,7 @@ return [
             0 => 
             PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
                'name' => 'value',
-               'type' => 'array',
+               'type' => 'string',
                'byRef' => false,
                'variadic' => false,
                'hasDefault' => false,
@@ -6714,21 +5760,23 @@ return [
           array (
           ),
         )),
-        7 => 
+        12 => 
         PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'setAddressAttribute',
+           'name' => 'getTitleAttribute',
            'phpDoc' => 
           PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
              'phpDocString' => '/**
      * Undocumented function.
-     *
-     * @param string|array $value
      */',
-             'namespace' => 'Modules\\Geo\\Models',
+             'namespace' => 'Modules\\Lang\\Models',
              'uses' => 
             array (
-              'exception' => 'Exception',
-              'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
             ),
              'constUses' => 
             array (
@@ -6740,13 +5788,13 @@ return [
            'abstract' => false,
            'final' => false,
            'static' => false,
-           'returnType' => 'void',
+           'returnType' => '?string',
            'parameters' => 
           array (
             0 => 
             PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
                'name' => 'value',
-               'type' => NULL,
+               'type' => '?string',
                'byRef' => false,
                'variadic' => false,
                'hasDefault' => false,
@@ -6759,40 +5807,164 @@ return [
           array (
           ),
         )),
+        13 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getGuidAttribute',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * ---.
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => '?string',
+           'parameters' => 
+          array (
+            0 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'value',
+               'type' => '?string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        14 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'getTxtAttribute',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => '?string',
+           'parameters' => 
+          array (
+            0 => 
+            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'value',
+               'type' => '?string',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        15 => 
+        PHPStan\Dependency\ExportedNode\ExportedClassConstantsNode::__set_state(array(
+           'constants' => 
+          array (
+            0 => 
+            PHPStan\Dependency\ExportedNode\ExportedClassConstantNode::__set_state(array(
+               'name' => 'SEARCHABLE_FIELDS',
+               'value' => '[\'title\', \'guid\', \'txt\']',
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'public' => true,
+           'private' => false,
+           'final' => false,
+           'phpDoc' => NULL,
+        )),
+        16 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'toSearchableArray',
+           'phpDoc' => 
+          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * @return array
+     */',
+             'namespace' => 'Modules\\Lang\\Models',
+             'uses' => 
+            array (
+              'cachable' => 'GeneaLabs\\LaravelModelCaching\\Traits\\Cachable',
+              'model' => 'Illuminate\\Database\\Eloquent\\Model',
+              'str' => 'Illuminate\\Support\\Str',
+              'updater' => 'Modules\\Xot\\Traits\\Updater',
+              'hasslug' => 'Spatie\\Sluggable\\HasSlug',
+              'slugoptions' => 'Spatie\\Sluggable\\SlugOptions',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
       ),
        'attributes' => 
       array (
       ),
     )),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Traits/GeoTrait.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Models/Traits/LinkedTrait.php' => 
   array (
     0 => 
     PHPStan\Dependency\ExportedNode\ExportedTraitNode::__set_state(array(
-       'traitName' => 'Modules\\Geo\\Models\\Traits\\GeoTrait',
+       'traitName' => 'Modules\\Lang\\Models\\Traits\\LinkedTrait',
     )),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Models/Traits/HasPlaceTrait.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedTraitNode::__set_state(array(
-       'traitName' => 'Modules\\Geo\\Models\\Traits\\HasPlaceTrait',
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Providers/GeoServiceProvider.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Providers/LangServiceProvider.php' => 
   array (
     0 => 
     PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Providers\\GeoServiceProvider',
+       'name' => 'Modules\\Lang\\Providers\\LangServiceProvider',
        'phpDoc' => 
       PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
          'phpDocString' => '/**
- * Class GeoServiceProvider.
+ * Undocumented class.
  */',
-         'namespace' => 'Modules\\Geo\\Providers',
+         'namespace' => 'Modules\\Lang\\Providers',
          'uses' => 
         array (
           'xotbaseserviceprovider' => 'Modules\\Xot\\Providers\\XotBaseServiceProvider',
+          'bladeservice' => 'Modules\\Xot\\Services\\BladeService',
         ),
          'constUses' => 
         array (
@@ -6860,31 +6032,54 @@ return [
           array (
           ),
         )),
+        3 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'bootCallback',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        4 => 
+        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'registerCallback',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
       ),
        'attributes' => 
       array (
       ),
     )),
   ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Providers/RouteServiceProvider.php' => 
+  '/var/www/html/_bases/base_dev01/laravel/Modules/Lang/Providers/RouteServiceProvider.php' => 
   array (
     0 => 
     PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Providers\\RouteServiceProvider',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class RouteServiceProvider.
- */',
-         'namespace' => 'Modules\\Geo\\Providers',
-         'uses' => 
-        array (
-          'xotbaserouteserviceprovider' => 'Modules\\Xot\\Providers\\XotBaseRouteServiceProvider',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
+       'name' => 'Modules\\Lang\\Providers\\RouteServiceProvider',
+       'phpDoc' => NULL,
        'abstract' => false,
        'final' => false,
        'extends' => 'Modules\\Xot\\Providers\\XotBaseRouteServiceProvider',
@@ -6910,7 +6105,7 @@ return [
              'phpDocString' => '/**
      * The module namespace to assume when generating URLs to actions.
      */',
-             'namespace' => 'Modules\\Geo\\Providers',
+             'namespace' => 'Modules\\Lang\\Providers',
              'uses' => 
             array (
               'xotbaserouteserviceprovider' => 'Modules\\Xot\\Providers\\XotBaseRouteServiceProvider',
@@ -6960,1520 +6155,6 @@ return [
           array (
           ),
         )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Services/GeoService.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Services\\GeoService',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class GeoService.
- */',
-         'namespace' => 'Modules\\Geo\\Services',
-         'uses' => 
-        array (
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => NULL,
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'latitude_field',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => true,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'longitude_field',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => true,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'getInstance',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * getInstance.
-     *
-     * this method will return instance of the class
-     */',
-             'namespace' => 'Modules\\Geo\\Services',
-             'uses' => 
-            array (
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => true,
-           'returnType' => 'self',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        3 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'setLatitudeField',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => true,
-           'returnType' => 'self',
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'latitude_field',
-               'type' => 'string',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        4 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'setLongitudeField',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => true,
-           'returnType' => 'self',
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'longitude_field',
-               'type' => 'string',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        5 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'setLatitudeLongitudeField',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => true,
-           'returnType' => 'self',
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'latitude_field',
-               'type' => 'string',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            1 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'longitude_field',
-               'type' => 'string',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        6 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'distance',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => true,
-           'returnType' => '?float',
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'lat1',
-               'type' => '?float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            1 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'lon1',
-               'type' => '?float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            2 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'lat2',
-               'type' => '?float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            3 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'lon2',
-               'type' => '?float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            4 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'unit',
-               'type' => '?string',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        7 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'haversine',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @param float $latitude
-     * @param float $longitude
-     *
-     * @return string
-     */',
-             'namespace' => 'Modules\\Geo\\Services',
-             'uses' => 
-            array (
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => true,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'latitude',
-               'type' => NULL,
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            1 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'longitude',
-               'type' => NULL,
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        8 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'is_in_polygon',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Undocumented function.
-     */',
-             'namespace' => 'Modules\\Geo\\Services',
-             'uses' => 
-            array (
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => true,
-           'returnType' => 'bool',
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'latitude',
-               'type' => 'float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            1 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'longitude',
-               'type' => 'float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            2 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'polygon',
-               'type' => 'array',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        9 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'pointInPolygon',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => true,
-           'returnType' => 'bool',
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'lat',
-               'type' => 'float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            1 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'lng',
-               'type' => 'float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            2 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'polygon',
-               'type' => '?string',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Services/HereService.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Services\\HereService',
-       'phpDoc' => NULL,
-       'abstract' => false,
-       'final' => false,
-       'extends' => NULL,
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'base_url',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'string',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'getDurationAndLength',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => true,
-           'returnType' => '?array',
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'lat1',
-               'type' => 'float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            1 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'lon1',
-               'type' => 'float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            2 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'lat2',
-               'type' => 'float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            3 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'lon2',
-               'type' => 'float',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Transformers/GeoJsonCollection.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Transformers\\GeoJsonCollection',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class GeoJsonCollection.
- */',
-         'namespace' => 'Modules\\Geo\\Transformers',
-         'uses' => 
-        array (
-          'resourcecollection' => 'Illuminate\\Http\\Resources\\Json\\ResourceCollection',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Illuminate\\Http\\Resources\\Json\\ResourceCollection',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'collects',
-          ),
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @var string
-     */',
-             'namespace' => 'Modules\\Geo\\Transformers',
-             'uses' => 
-            array (
-              'resourcecollection' => 'Illuminate\\Http\\Resources\\Json\\ResourceCollection',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'type' => NULL,
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'toArray',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @param \\Illuminate\\Http\\Request $request
-     *
-     * @return array
-     */',
-             'namespace' => 'Modules\\Geo\\Transformers',
-             'uses' => 
-            array (
-              'resourcecollection' => 'Illuminate\\Http\\Resources\\Json\\ResourceCollection',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'request',
-               'type' => NULL,
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Transformers/GeoJsonResource.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\Transformers\\GeoJsonResource',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class GeoJsonResource.
- *
- * @property int         $id
- * @property string|null $post_type
- * @property int|null    $post_id
- * @property int|null    $url
- * @property int|null    $title
- * @property int|null    $subtitle
- * @property float|null  $ratings_avg
- * @property string|null $phone
- * @property string|null $full_address
- * @property string|null $email
- * @property float       $latitude
- * @property float       $longitude
- */',
-         'namespace' => 'Modules\\Geo\\Transformers',
-         'uses' => 
-        array (
-          'rescollection' => 'Illuminate\\Http\\Resources\\Json\\JsonResource',
-          'panel' => 'Modules\\Cms\\Services\\PanelService',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Illuminate\\Http\\Resources\\Json\\JsonResource',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'toArray',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * @param \\Illuminate\\Http\\Request $request
-     *
-     * @return array
-     */',
-             'namespace' => 'Modules\\Geo\\Transformers',
-             'uses' => 
-            array (
-              'rescollection' => 'Illuminate\\Http\\Resources\\Json\\JsonResource',
-              'panel' => 'Modules\\Cms\\Services\\PanelService',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'request',
-               'type' => NULL,
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/View/Components/Card/Place.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\View\\Components\\Card\\Place',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class Place.
- */',
-         'namespace' => 'Modules\\Geo\\View\\Components\\Card',
-         'uses' => 
-        array (
-          'renderable' => 'Illuminate\\Contracts\\Support\\Renderable',
-          'model' => 'Illuminate\\Database\\Eloquent\\Model',
-          'component' => 'Illuminate\\View\\Component',
-          'panelservice' => 'Modules\\Cms\\Services\\PanelService',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Illuminate\\View\\Component',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'attrs',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'array',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
-           'names' => 
-          array (
-            0 => 'row',
-          ),
-           'phpDoc' => NULL,
-           'type' => 'Illuminate\\Database\\Eloquent\\Model',
-           'public' => true,
-           'private' => false,
-           'static' => false,
-           'readonly' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        2 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => '__construct',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Create a new component instance.
-     *
-     * @return void
-     */',
-             'namespace' => 'Modules\\Geo\\View\\Components\\Card',
-             'uses' => 
-            array (
-              'renderable' => 'Illuminate\\Contracts\\Support\\Renderable',
-              'model' => 'Illuminate\\Database\\Eloquent\\Model',
-              'component' => 'Illuminate\\View\\Component',
-              'panelservice' => 'Modules\\Cms\\Services\\PanelService',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-            0 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'row',
-               'type' => 'Illuminate\\Database\\Eloquent\\Model',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => false,
-               'attributes' => 
-              array (
-              ),
-            )),
-            1 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'class',
-               'type' => '?string',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => true,
-               'attributes' => 
-              array (
-              ),
-            )),
-            2 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'style',
-               'type' => '?string',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => true,
-               'attributes' => 
-              array (
-              ),
-            )),
-            3 => 
-            PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-               'name' => 'id',
-               'type' => '?string',
-               'byRef' => false,
-               'variadic' => false,
-               'hasDefault' => true,
-               'attributes' => 
-              array (
-              ),
-            )),
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-        3 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'render',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Get the view / contents that represent the component.
-     */',
-             'namespace' => 'Modules\\Geo\\View\\Components\\Card',
-             'uses' => 
-            array (
-              'renderable' => 'Illuminate\\Contracts\\Support\\Renderable',
-              'model' => 'Illuminate\\Database\\Eloquent\\Model',
-              'component' => 'Illuminate\\View\\Component',
-              'panelservice' => 'Modules\\Cms\\Services\\PanelService',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'Illuminate\\Contracts\\Support\\Renderable',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/View/Components/Dashboard/Item.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\View\\Components\\Dashboard\\Item',
-       'phpDoc' => 
-      PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * Class Field.
- */',
-         'namespace' => 'Modules\\Geo\\View\\Components\\Dashboard',
-         'uses' => 
-        array (
-          'component' => 'Illuminate\\View\\Component',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Illuminate\\View\\Component',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'render',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/View/Components/FormSearchAddressCategories.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'Modules\\Geo\\View\\Components\\FormSearchAddressCategories',
-       'phpDoc' => NULL,
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Illuminate\\View\\Component',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'render',
-           'phpDoc' => 
-          PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-             'phpDocString' => '/**
-     * Undocumented function.
-     */',
-             'namespace' => 'Modules\\Geo\\View\\Components',
-             'uses' => 
-            array (
-              'renderable' => 'Illuminate\\Contracts\\Support\\Renderable',
-              'component' => 'Illuminate\\View\\Component',
-            ),
-             'constUses' => 
-            array (
-            ),
-          )),
-           'byRef' => false,
-           'public' => true,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => false,
-           'returnType' => 'Illuminate\\Contracts\\Support\\Renderable',
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/configure.php' => 
-  array (
-    0 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'ask',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'string',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'question',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'default',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => true,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    1 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'confirm',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'bool',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'question',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'default',
-           'type' => 'bool',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => true,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    2 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'writeln',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'void',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'line',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    3 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'run',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'string',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'command',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    4 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'str_after',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'string',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'subject',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'search',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    5 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'slugify',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'string',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'subject',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    6 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'title_case',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'string',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'subject',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    7 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'title_snake',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'string',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'subject',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'replace',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => true,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    8 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'replace_in_file',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'void',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'file',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'replacements',
-           'type' => 'array',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    9 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'remove_prefix',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'string',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'prefix',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-        1 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'content',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    10 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'remove_composer_deps',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => NULL,
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'names',
-           'type' => 'array',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    11 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'remove_composer_script',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => NULL,
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'scriptName',
-           'type' => NULL,
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    12 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'remove_readme_paragraphs',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'void',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'file',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    13 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'safeUnlink',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => NULL,
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'filename',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    14 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'determineSeparator',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'string',
-       'parameters' => 
-      array (
-        0 => 
-        PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
-           'name' => 'path',
-           'type' => 'string',
-           'byRef' => false,
-           'variadic' => false,
-           'hasDefault' => false,
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    15 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'replaceForWindows',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'array',
-       'parameters' => 
-      array (
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-    16 => 
-    PHPStan\Dependency\ExportedNode\ExportedFunctionNode::__set_state(array(
-       'name' => 'replaceForAllOtherOSes',
-       'phpDoc' => NULL,
-       'byRef' => false,
-       'returnType' => 'array',
-       'parameters' => 
-      array (
       ),
        'attributes' => 
       array (
