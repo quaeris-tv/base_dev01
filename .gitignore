@@ -37,3 +37,4 @@ package-lock.json
 .Trash-1000
 *.stackdump
 /laravel/build/
+/laravel/build
