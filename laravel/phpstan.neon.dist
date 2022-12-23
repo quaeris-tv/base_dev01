@@ -3,7 +3,7 @@ includes:
 
 parameters:
 
-    level: 5
+    level: max
 
     paths:
         - ./Modules
@@ -26,7 +26,7 @@ parameters:
         - ./Modules/Chart/*
         - ./Modules/Limesurvey/*
         - ./Modules/Notify/*
-        
+
 
     bootstrapFiles:
         - ./Modules/Xot/Services/vendor/autoload.php
