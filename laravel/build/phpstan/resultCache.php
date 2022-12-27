@@ -2955,25 +2955,6 @@ return [
 	'projectExtensionFiles' => array (
 ),
 	'errorsCallback' => static function (): array { return array (
-  '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Services/HereService.php' => 
-  array (
-    0 => 
-    PHPStan\Analyser\Error::__set_state(array(
-       'message' => 'Call to an undefined method GuzzleHttp\\Promise\\PromiseInterface|Illuminate\\Http\\Client\\Response::json().',
-       'file' => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Services/HereService.php',
-       'line' => 31,
-       'canBeIgnored' => true,
-       'filePath' => '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Services/HereService.php',
-       'traitFilePath' => NULL,
-       'tip' => NULL,
-       'nodeLine' => 31,
-       'nodeType' => 'PhpParser\\Node\\Expr\\MethodCall',
-       'identifier' => NULL,
-       'metadata' => 
-      array (
-      ),
-    )),
-  ),
 ); },
 	'collectedDataCallback' => static function (): array { return array (
 ); },
@@ -3201,7 +3182,7 @@ return [
   ),
   '/var/www/html/_bases/base_dev01/laravel/Modules/Geo/Services/HereService.php' => 
   array (
-    'fileHash' => 'd138ab3dacf16ab3b507cc6221f96e3163581f6e',
+    'fileHash' => 'c9ffff5a5d746fc5dafd89e7b7fafd172d64df08',
     'dependentFiles' => 
     array (
     ),
