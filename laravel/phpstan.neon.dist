@@ -31,7 +31,11 @@ parameters:
 =======
 =======
         - ./Modules/Ticket/*
+<<<<<<< HEAD
 >>>>>>> d4cc375 (up)
+=======
+        - ./Modules/Tag/*
+>>>>>>> d1205dc (up)
         - ./*/*/Database/Migration/*
         
 >>>>>>> dc95ea5 (up)

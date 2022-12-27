@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
 return PHPStan\Cache\CacheItem::__set_state(array(
-   'variableKey' => '1672136085-v4',
+   'variableKey' => '1672157223-v4',
    'data' => false,
 ));
