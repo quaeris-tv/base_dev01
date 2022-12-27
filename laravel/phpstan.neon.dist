@@ -20,6 +20,7 @@ parameters:
         - ./*/lang/*
         - ./_ide_helper.php
         - ./*/_ide_helper.php
+<<<<<<< HEAD
         - ./Modules/Theme/*
         - ./Modules/Quaeris/*
         - ./Modules/Chart/*
@@ -39,6 +40,9 @@ parameters:
 >>>>>>> d1205dc (up)
         - ./*/*/Database/Migration/*
 =======
+=======
+        - ./Modules/Ticket/*
+>>>>>>> 2b82459 (.)
         - ./*/*/Database/Migrations/*
 >>>>>>> 03488f2 (up)
         
