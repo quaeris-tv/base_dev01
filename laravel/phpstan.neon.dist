@@ -35,8 +35,12 @@ parameters:
 >>>>>>> d4cc375 (up)
 =======
         - ./Modules/Tag/*
+<<<<<<< HEAD
 >>>>>>> d1205dc (up)
         - ./*/*/Database/Migration/*
+=======
+        - ./*/*/Database/Migrations/*
+>>>>>>> 03488f2 (up)
         
 >>>>>>> dc95ea5 (up)
 
