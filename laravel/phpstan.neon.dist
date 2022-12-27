@@ -20,15 +20,18 @@ parameters:
         - ./*/lang/*
         - ./_ide_helper.php
         - ./*/_ide_helper.php
-        - ./Modules/Ticket/*
         - ./Modules/Theme/*
         - ./Modules/Quaeris/*
         - ./Modules/Chart/*
         - ./Modules/Limesurvey/*
+<<<<<<< HEAD
         - ./Modules/Notify/*
 <<<<<<< HEAD
 
 =======
+=======
+        - ./Modules/Ticket/*
+>>>>>>> d4cc375 (up)
         - ./*/*/Database/Migration/*
         
 >>>>>>> dc95ea5 (up)
