@@ -10,6 +10,7 @@
         "calebporzio/sushi": "^2.4",
         "cknow/laravel-money": "^7.0",
         "doctrine/dbal": "^3.5",
+        "fidum/laravel-eloquent-morph-to-one": "^2.1",
         "genealabs/laravel-model-caching": "^0.12.5",
         "guzzlehttp/guzzle": "^7.5",
         "intervention/image": "^2.7",
