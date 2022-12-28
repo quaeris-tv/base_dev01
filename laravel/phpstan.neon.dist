@@ -20,33 +20,14 @@ parameters:
         - ./*/lang/*
         - ./_ide_helper.php
         - ./*/_ide_helper.php
-<<<<<<< HEAD
-        - ./Modules/Theme/*
+        - ./Modules/Job/*
         - ./Modules/Quaeris/*
         - ./Modules/Chart/*
         - ./Modules/Limesurvey/*
-<<<<<<< HEAD
         - ./Modules/Notify/*
-<<<<<<< HEAD
-
-=======
-=======
         - ./Modules/Ticket/*
-<<<<<<< HEAD
->>>>>>> d4cc375 (up)
-=======
         - ./Modules/Tag/*
-<<<<<<< HEAD
->>>>>>> d1205dc (up)
-        - ./*/*/Database/Migration/*
-=======
-=======
-        - ./Modules/Ticket/*
->>>>>>> 2b82459 (.)
         - ./*/*/Database/Migrations/*
->>>>>>> 03488f2 (up)
-        
->>>>>>> dc95ea5 (up)
 
     bootstrapFiles:
         - ./Modules/Xot/Services/vendor/autoload.php
