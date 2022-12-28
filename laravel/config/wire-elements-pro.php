@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'default' => 'bootstrap',
+    'default' => 'tailwind',
 
     'components' => [
         'modal' => [

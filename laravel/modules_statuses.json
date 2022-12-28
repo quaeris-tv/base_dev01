@@ -14,5 +14,6 @@
     "Quaeris": true,
     "Smarty": true,
     "Tag": true,
-    "Ticket": true
+    "Ticket": true,
+    "UI": true
 }
