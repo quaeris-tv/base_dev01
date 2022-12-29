@@ -7,6 +7,7 @@ parameters:
 
     paths:
         - ./Modules
+        - ./Themes
 
     excludePaths:
         - ./build/*
@@ -20,11 +21,6 @@ parameters:
         - ./*/lang/*
         - ./_ide_helper.php
         - ./*/_ide_helper.php
-        - ./Modules/Job/*
-        - ./Modules/Quaeris/*
-        - ./Modules/Chart/*
-        - ./Modules/Limesurvey/*
-        - ./Modules/Tag/*
         - ./*/*/Database/Migrations/*
 
     bootstrapFiles:
