@@ -15,5 +15,8 @@
     "Smarty": true,
     "Tag": true,
     "Ticket": true,
-    "UI": true
+    "UI": true,
+    "Rating": true,
+    "Seo": true,
+    "Lang": true
 }
