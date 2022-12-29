@@ -24,8 +24,6 @@ parameters:
         - ./Modules/Quaeris/*
         - ./Modules/Chart/*
         - ./Modules/Limesurvey/*
-        - ./Modules/Notify/*
-        - ./Modules/Ticket/*
         - ./Modules/Tag/*
         - ./*/*/Database/Migrations/*
 
