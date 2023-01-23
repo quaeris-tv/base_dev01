@@ -63,6 +63,9 @@
 [submodule "laravel/Modules/Rating"]
 	path = laravel/Modules/Rating
 	url = https://github.com/laraxot/module_rating.git
+[submodule "laravel/Modules/Comment"]
+	path = laravel/Modules/Comment
+	url = https://github.com/laraxot/module_comment.git
 
 
 #Themes	
@@ -91,6 +94,4 @@
 	path = laravel/Themes/One
 	url = https://github.com/laraxot/theme_one.git
 
-[submodule "laravel/Modules/Comment"]
-	path = laravel/Modules/Comment
-	url = https://github.com/laraxot/module_comment.git
+
