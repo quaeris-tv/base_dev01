@@ -18,5 +18,6 @@
     "UI": true,
     "Rating": true,
     "Seo": true,
-    "Lang": true
+    "Lang": true,
+    "Comment": true
 }

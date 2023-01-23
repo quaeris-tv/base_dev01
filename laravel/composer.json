@@ -29,6 +29,7 @@
         "spatie/laravel-cookie-consent": "^3.2",
         "spatie/laravel-data": "^2.2",
         "spatie/laravel-database-mail-templates": "^3.5",
+        "spatie/laravel-markdown": "^2.2",
         "spatie/laravel-medialibrary": "^10.7",
         "spatie/laravel-model-info": "^1.4",
         "spatie/laravel-model-states": "^2.4",
