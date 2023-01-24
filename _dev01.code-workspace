@@ -22,5 +22,10 @@
 			"editor.defaultFormatter": "junstyle.php-cs-fixer"
 		},
 		"git.ignoreLimitWarning": true
+	},
+	"extensions": {
+		"recommendations": [
+			"junstyle.php-cs-fixer"
+		]
 	}
 }

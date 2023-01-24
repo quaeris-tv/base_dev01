@@ -8,7 +8,7 @@
     "Tenant": true,
     "Chart": true,
     "Cms": true,
-         "Comment":true,
+    "Comment": true,
     "Job": true,
     "Limesurvey": true,
     "Notify": true,
@@ -20,5 +20,5 @@
     "Rating": true,
     "Seo": true,
     "Lang": true,
-    "Comment": true
+    "Media": true
 }
