@@ -42,6 +42,7 @@
         "spatie/laravel-tags": "^4.3",
         "staudenmeir/eloquent-has-many-deep": "^1.17",
         "symfony/dom-crawler": "^6.2",
+        "symfony/html-sanitizer": "^6.2",
         "unisharp/laravel-filemanager": "^2.5",
         "wire-elements/pro": "*"
     },
