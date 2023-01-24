@@ -20,6 +20,7 @@
     "Smarty": true,
     "Lang": true,
     "Cms": true,
+         "Comment":true,
     "Notify": true,
     "Limesurvey": true,
     "Job": true,

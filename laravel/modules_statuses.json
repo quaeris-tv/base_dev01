@@ -8,6 +8,7 @@
     "Tenant": true,
     "Chart": true,
     "Cms": true,
+         "Comment":true,
     "Job": true,
     "Limesurvey": true,
     "Notify": true,

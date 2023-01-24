@@ -4,6 +4,7 @@
     "Settings": true,
     "LU": true,
     "Cms": true,
+         "Comment":true,
     "Geo": true,
     "Forum": true,
     "FormX": true,
