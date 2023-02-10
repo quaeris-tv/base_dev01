@@ -16,9 +16,13 @@
     "Smarty": true,
     "Tag": true,
     "Ticket": true,
+<<<<<<< HEAD
     "UI": true,
     "Rating": true,
     "Seo": true,
     "Lang": true,
     "Media": true
+=======
+    "UI": true
+>>>>>>> b23fc2cb (up)
 }

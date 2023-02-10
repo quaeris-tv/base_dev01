@@ -15,9 +15,12 @@
 [submodule "laravel/Modules/LU"]
 	path = laravel/Modules/LU
 	url = https://github.com/laraxot/module_lu.git
+<<<<<<< HEAD
 [submodule "laravel/Modules/UI"]
 	path = laravel/Modules/UI
 	url = https://github.com/laraxot/module_ui.git
+=======
+>>>>>>> b23fc2cb (up)
 [submodule "laravel/Modules/Xot"]
 	path = laravel/Modules/Xot
 	url = https://github.com/laraxot/module_xot.git
@@ -63,12 +66,21 @@
 [submodule "laravel/Modules/Rating"]
 	path = laravel/Modules/Rating
 	url = https://github.com/laraxot/module_rating.git
+<<<<<<< HEAD
 [submodule "laravel/Modules/Comment"]
 	path = laravel/Modules/Comment
 	url = https://github.com/laraxot/module_comment.git
+<<<<<<< HEAD
 [submodule "laravel/Modules/Media"]
 	path = laravel/Modules/Media
 	url = https://github.com/laraxot/module_media.git
+=======
+=======
+[submodule "laravel/Modules/UI"]
+	path = laravel/Modules/UI
+	url = https://github.com/laraxot/module_ui.git
+>>>>>>> b23fc2cb (up)
+>>>>>>> 73f6723 (rebase)
 
 
 #Themes	
@@ -96,3 +108,14 @@
 [submodule "laravel/Themes/One"]
 	path = laravel/Themes/One
 	url = https://github.com/laraxot/theme_one.git
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+
+[submodule "laravel/Modules/Media"]
+	path = laravel/Modules/Media
+	url = https://github.com/laraxot/module_media.git
+=======
+>>>>>>> b23fc2cb (up)
+>>>>>>> 73f6723 (rebase)
