@@ -67,6 +67,7 @@
 	path = laravel/Modules/Comment
 	url = https://github.com/laraxot/module_comment.git
 <<<<<<< HEAD
+<<<<<<< HEAD
 [submodule "laravel/Modules/Media"]
 	path = laravel/Modules/Media
 	url = https://github.com/laraxot/module_media.git
@@ -82,6 +83,8 @@
 	path = laravel/Modules/Comment
 	url = https://github.com/laraxot/module_comment.git
 >>>>>>> 24b3038e (up)
+=======
+>>>>>>> 3ab2f9b (rebase)
 
 >>>>>>> e92917e (rebase)
 
