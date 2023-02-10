@@ -26,11 +26,8 @@
         "livewire/livewire": "^2.10",
         "mcamara/laravel-localization": "^1.7",
         "nwidart/laravel-modules": "^9.0",
-<<<<<<< HEAD
-=======
         "psr/simple-cache": "^1",
         "spatie/color": "^1.5",
->>>>>>> 13e9c969 (up)
         "spatie/laravel-cookie-consent": "^3.2",
         "spatie/laravel-data": "^2.2",
         "spatie/laravel-database-mail-templates": "^3.5",
@@ -49,11 +46,7 @@
         "symfony/dom-crawler": "^6.2",
         "symfony/html-sanitizer": "^6.2",
         "unisharp/laravel-filemanager": "^2.5",
-<<<<<<< HEAD
-        "wire-elements/pro": "*"
-=======
         "wire-elements/pro": "^3.0"
->>>>>>> 13e9c969 (up)
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.7",
