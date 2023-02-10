@@ -28,7 +28,7 @@ declare(strict_types=1);
 
     //  'home' => 'segnalazione-disservizio.acconsentire_trattamento_dati_inseriti',
 
-    'home' => 'segnalazione-disservizio.inserire_dati_specifici'
+    // 'home' => 'segnalazione-disservizio.inserire_dati_specifici'
 
     // 'home' => 'segnalazione-disservizio.conferma_riepilogo_informazioni_inserite'
 

@@ -66,6 +66,9 @@
 [submodule "laravel/Modules/Comment"]
 	path = laravel/Modules/Comment
 	url = https://github.com/laraxot/module_comment.git
+[submodule "laravel/Modules/Media"]
+	path = laravel/Modules/Media
+	url = https://github.com/laraxot/module_media.git
 
 
 #Themes	
@@ -93,8 +96,3 @@
 [submodule "laravel/Themes/One"]
 	path = laravel/Themes/One
 	url = https://github.com/laraxot/theme_one.git
-
-
-[submodule "laravel/Modules/Media"]
-	path = laravel/Modules/Media
-	url = https://github.com/laraxot/module_media.git
