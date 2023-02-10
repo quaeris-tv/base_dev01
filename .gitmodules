@@ -66,33 +66,15 @@
 [submodule "laravel/Modules/Comment"]
 	path = laravel/Modules/Comment
 	url = https://github.com/laraxot/module_comment.git
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 [submodule "laravel/Modules/Media"]
 	path = laravel/Modules/Media
 	url = https://github.com/laraxot/module_media.git
-=======
-=======
 [submodule "laravel/Modules/UI"]
 	path = laravel/Modules/UI
 	url = https://github.com/laraxot/module_ui.git
-<<<<<<< HEAD
->>>>>>> b23fc2cb (up)
-=======
 [submodule "laravel/Modules/Comment"]
 	path = laravel/Modules/Comment
 	url = https://github.com/laraxot/module_comment.git
->>>>>>> 24b3038e (up)
-=======
->>>>>>> 3ab2f9b (rebase)
-=======
-[submodule "laravel/Modules/Media"]
-	path = laravel/Modules/Media
-	url = https://github.com/laraxot/module_media.git
->>>>>>> 6e95370 (.)
-
->>>>>>> e92917e (rebase)
 
 #Themes	
 [submodule "laravel/Themes/AdminLTE"]
@@ -119,7 +101,3 @@
 [submodule "laravel/Themes/One"]
 	path = laravel/Themes/One
 	url = https://github.com/laraxot/theme_one.git
-<<<<<<< HEAD
-
-=======
->>>>>>> 6e95370 (.)
