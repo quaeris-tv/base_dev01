@@ -74,7 +74,13 @@
 [submodule "laravel/Modules/UI"]
 	path = laravel/Modules/UI
 	url = https://github.com/laraxot/module_ui.git
+<<<<<<< HEAD
 >>>>>>> b23fc2cb (up)
+=======
+[submodule "laravel/Modules/Comment"]
+	path = laravel/Modules/Comment
+	url = https://github.com/laraxot/module_comment.git
+>>>>>>> 24b3038e (up)
 
 
 #Themes	
