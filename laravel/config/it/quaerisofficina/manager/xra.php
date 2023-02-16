@@ -2,10 +2,11 @@
 
 declare(strict_types=1);
 
- return [
-     'adm_theme' => 'AdminLTE',
-     'enable_ads' => '1',
-     'primary_lang' => 'it',
-     'pub_theme' => 'DirectoryBs5',
-     'main_module'=> 'Quaeris',
- ];
+return [
+    'adm_theme' => 'KlekooAdm',
+    'adm_home' => '03',
+    'enable_ads' => '1',
+    'primary_lang' => 'it',
+    'pub_theme' => 'KlekooPub',
+    'main_module'=> 'Quaeris',
+];
