@@ -22,11 +22,15 @@
         "laravel/socialite": "^5.6",
         "laravel/tinker": "^2.7",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 888dc8c (..)
         "laravel/ui": "^4.2",
         "laravelcollective/html": "^6.4",
         "livewire/livewire": "^2.12",
         "mcamara/laravel-localization": "^1.8",
         "nwidart/laravel-modules": "^10.0",
+<<<<<<< HEAD
         "psr/simple-cache": "^1",
         "spatie/color": "^1.5",
 =======
@@ -35,6 +39,8 @@
         "livewire/livewire": "^2.10",
         "mcamara/laravel-localization": "^1.7",
         "nwidart/laravel-modules": "^9.0",
+=======
+>>>>>>> 888dc8c (..)
         "psr/simple-cache": "^1",
         "spatie/color": "^1.5",
 <<<<<<< HEAD
