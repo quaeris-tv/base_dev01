@@ -23,13 +23,17 @@
         "laravel/tinker": "^2.7",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 888dc8c (..)
+=======
+>>>>>>> 9ab9892 (up)
         "laravel/ui": "^4.2",
         "laravelcollective/html": "^6.4",
         "livewire/livewire": "^2.12",
         "mcamara/laravel-localization": "^1.8",
         "nwidart/laravel-modules": "^10.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "psr/simple-cache": "^1",
         "spatie/color": "^1.5",
@@ -48,6 +52,10 @@
 >>>>>>> 3184a95 (rebase)
 =======
 >>>>>>> 7d4c6a4 (.)
+=======
+        "psr/simple-cache": "^1",
+        "spatie/color": "^1.5",
+>>>>>>> 9ab9892 (up)
         "spatie/laravel-cookie-consent": "^3.2",
         "spatie/laravel-data": "^3.1",
         "spatie/laravel-database-mail-templates": "^3.5",
@@ -69,6 +77,7 @@
         "unisharp/laravel-filemanager": "^2.5",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "wire-elements/pro": "^3.0"
 =======
 <<<<<<< HEAD
@@ -80,6 +89,9 @@
 =======
         "wire-elements/pro": "^3.0"
 >>>>>>> 7d4c6a4 (.)
+=======
+        "wire-elements/pro": "^3.0"
+>>>>>>> 9ab9892 (up)
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.7",
