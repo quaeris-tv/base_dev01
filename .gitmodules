@@ -69,16 +69,9 @@
 [submodule "laravel/Modules/Media"]
 	path = laravel/Modules/Media
 	url = https://github.com/laraxot/module_media.git
-<<<<<<< HEAD
-[submodule "laravel/Modules/UI"]
-	path = laravel/Modules/UI
-	url = https://github.com/laraxot/module_ui.git
 [submodule "laravel/Modules/Comment"]
 	path = laravel/Modules/Comment
 	url = https://github.com/laraxot/module_comment.git
-=======
-
->>>>>>> 9ab9892 (up)
 
 #Themes	
 [submodule "laravel/Themes/AdminLTE"]
