@@ -20,22 +20,9 @@ return [
     // 'home' => 'segnalazione-disservizio.trovare_informazioni_servizio',
     // 'home' => 'segnalazione-disservizio.acconsentire_trattamento_dati_inseriti',
     // 'home' => 'segnalazione-disservizio.inserire_dati_specifici'
-
-
-
-
-
-
-
-
     //  'pub_theme' => 'DirectoryBs5',
-
-
-
     //  'home' => 'template.homepage',
-
     // 'pub_theme' => 'DirectoryBs5',
-
     // 'home' => 'template.homepage',
     // 'home' => 'template.amministrazione'
     // 'home' => 'segnalazione-disservizio.trovare_informazioni_servizio',
